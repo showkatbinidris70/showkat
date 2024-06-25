@@ -603,7 +603,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section className="news-letter-section" style={{ margin: "5rem 0rem" }}>
+      <section className="news-letter-section">
         <div className="container">
           <div className="common-card py-5">
             <div className="container">
