@@ -9,6 +9,11 @@ import quote_image from "../assets/images/quote.png";
 import { MdOutlineWebhook } from "react-icons/md";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import Project_image from "../assets/images/project-image.png";
+import webflow_Project_image_02 from '../assets/images/webflow-2.png'
+import landing_page_01 from '../assets/images/landing-page-01.png'
+import Noipunno_app_design from '../assets/images/noipunno.png'
+import ecommerce_template from '../assets/images/e-commerce.png'
+import template from '../assets/images/template.png'
 import { FaStarOfLife, FaArrowRight } from "react-icons/fa6";
 
 // swiper slider
@@ -16,6 +21,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay, Mousewheel } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const useAnimateOnVisible = (maxValue, duration = 5000) => {
   const elementRef = useRef(null);
@@ -138,7 +144,7 @@ export default function Home() {
                 <div className="card border-0 card-shadow p-3">
                   <MdOutlineWebhook className="fs-1 m-3" />
                   <div className="card-body">
-                    <h5 className="card-title">Branding</h5>
+                    <h5 className="card-title">Webflow Development</h5>
                     <p className="card-text">
                       Creates tailored websites to reflect your brand and engage
                       your audience effectively.
@@ -179,35 +185,22 @@ export default function Home() {
                   <div className="window position-relative">
                     <img src={Project_image} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
-                      <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
-                        <div className="cta-btn">
-                          <a className="btn px-2">
-                            Live View <FaArrowRight />
-                          </a>
-                        </div>
-                        <div className="cta-btn">
-                          <a className="btn px-3">
-                            Github <FaArrowRight />
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
-                  <div className="window position-relative">
-                    <img src={Project_image} className="img-fluid pt-3 px-3" />
-                    <div className="position-absolute bottom-0 w-100">
-                      <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
-                        <div className="cta-btn">
-                          <a className="btn px-2">
-                            Live View <FaArrowRight />
-                          </a>
-                        </div>
-                        <div className="cta-btn">
-                          <a className="btn px-3">
-                            Github <FaArrowRight />
-                          </a>
+                      <div className="button-bg-color">
+                        <h5 className="ps-3 pt-3">Webflow Project</h5>
+                        <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
+                          <div className="cta-btn">
+                            <Link
+                              to="https://restaurant-979076.webflow.io/"
+                              className="btn px-2"
+                            >
+                              Live View <FaArrowRight />
+                            </Link>
+                          </div>
+                          <div className="cta-btn">
+                            <a className="btn px-3">
+                              Github <FaArrowRight />
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -215,18 +208,24 @@ export default function Home() {
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
-                    <img src={Project_image} className="img-fluid pt-3 px-3" />
+                    <img src={webflow_Project_image_02} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
-                      <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
-                        <div className="cta-btn">
-                          <a className="btn px-2">
-                            Live View <FaArrowRight />
-                          </a>
-                        </div>
-                        <div className="cta-btn">
-                          <a className="btn px-3">
-                            Github <FaArrowRight />
-                          </a>
+                      <div className="button-bg-color">
+                        <h5 className="ps-3 pt-3">Webflow Project</h5>
+                        <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
+                          <div className="cta-btn">
+                            <Link
+                              to="https://my-five-star-site-7568bb.webflow.io/"
+                              className="btn px-2"
+                            >
+                              Live View <FaArrowRight />
+                            </Link>
+                          </div>
+                          <div className="cta-btn">
+                            <a className="btn px-3">
+                              Github <FaArrowRight />
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -234,18 +233,24 @@ export default function Home() {
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
-                    <img src={Project_image} className="img-fluid pt-3 px-3" />
+                    <img src={landing_page_01} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
-                      <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
-                        <div className="cta-btn">
-                          <a className="btn px-2">
-                            Live View <FaArrowRight />
-                          </a>
-                        </div>
-                        <div className="cta-btn">
-                          <a className="btn px-3">
-                            Github <FaArrowRight />
-                          </a>
+                      <div className="button-bg-color">
+                        <h5 className="ps-3 pt-3">Landing Page</h5>
+                        <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
+                          <div className="cta-btn">
+                            <Link
+                              to="https://ekshop-new-design.vercel.app/"
+                              className="btn px-2"
+                            >
+                              Live View <FaArrowRight />
+                            </Link>
+                          </div>
+                          <div className="cta-btn">
+                            <a className="btn px-3">
+                              Github <FaArrowRight />
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -253,18 +258,24 @@ export default function Home() {
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
-                    <img src={Project_image} className="img-fluid pt-3 px-3" />
+                    <img src={Noipunno_app_design} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
-                      <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
-                        <div className="cta-btn">
-                          <a className="btn px-2">
-                            Live View <FaArrowRight />
-                          </a>
-                        </div>
-                        <div className="cta-btn">
-                          <a className="btn px-3">
-                            Github <FaArrowRight />
-                          </a>
+                      <div className="button-bg-color">
+                        <h5 className="ps-3 pt-3">Noipunno App Design</h5>
+                        <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
+                          <div className="cta-btn">
+                            <Link
+                              to="https://project-ca-html.vercel.app/deshboard.html"
+                              className="btn px-2"
+                            >
+                              Live View <FaArrowRight />
+                            </Link>
+                          </div>
+                          <div className="cta-btn">
+                            <a className="btn px-3">
+                              Github <FaArrowRight />
+                            </a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -272,18 +283,55 @@ export default function Home() {
                 </div>
                 <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
-                    <img src={Project_image} className="img-fluid pt-3 px-3" />
+                    <img src={ecommerce_template} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
-                      <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
-                        <div className="cta-btn">
-                          <a className="btn px-2">
-                            Live View <FaArrowRight />
-                          </a>
+                      <div className="button-bg-color">
+                        <h5 className="ps-3 pt-3">E-commerce Template</h5>
+                        <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
+                          <div className="cta-btn">
+                            <Link
+                              to="https://ozuna-next-js-tailwind-css-animation-framer-motion.vercel.app/"
+                              className="btn px-2"
+                            >
+                              Live View <FaArrowRight />
+                            </Link>
+                          </div>
+                          <div className="cta-btn">
+                            <Link
+                              to="https://github.com/showkatbinidris70/ozuna-next-js-tailwind-css-animation-framer-motion-2"
+                              className="btn px-2"
+                            >
+                              Live View <FaArrowRight />
+                            </Link>
+                          </div>
                         </div>
-                        <div className="cta-btn">
-                          <a className="btn px-3">
-                            Github <FaArrowRight />
-                          </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
+                  <div className="window position-relative">
+                    <img src={template} className="img-fluid pt-3 px-3" />
+                    <div className="position-absolute bottom-0 w-100">
+                      <div className="button-bg-color">
+                        <h5 className="ps-3 pt-3">Tempalte Design</h5>
+                        <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
+                          <div className="cta-btn">
+                            <Link
+                              to="https://ministry-of-education-html.vercel.app/"
+                              className="btn px-2"
+                            >
+                              Live View <FaArrowRight />
+                            </Link>
+                          </div>
+                          <div className="cta-btn">
+                            <Link
+                              to="https://github.com/showkatbinidris70/ministry-of-education-html.git"
+                              className="btn px-2"
+                            >
+                              Live View <FaArrowRight />
+                            </Link>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -494,9 +542,9 @@ export default function Home() {
           <div className="common-card py-5">
             <div className="container">
               <div className="row my-5">
-                <div className="card border-0 card-shadow py-5 px-5 text-center position-relative">
+                <div className="card border-0 card-shadow py-5 px-2 px-lg-5 text-center position-relative">
                   <div
-                    className="position-absolute top-0 end-0"
+                    className="position-absolute top-0 end-0 d-none d-md-block"
                     style={{
                       width: 80,
                       height: 80,
@@ -523,7 +571,7 @@ export default function Home() {
                               className="img-fluid w-25"
                               alt="Here is an image"
                             />
-                            <span className="d-block mt-3">
+                            <span className="d-block mt-3 desc">
                               Subscribe to our newsletter in order not to miss
                               new arrivals
                               <br /> promotions and discounts of our store
