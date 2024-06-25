@@ -159,7 +159,7 @@ export default function Home() {
       <section className="projects">
         <div className="container">
           <div className="row">
-            <div className="col-sm-6 col-md-4">
+            <div className="col-sm-12 col-md-6 col-lg-4">
               <div className="sticky-top" style={{ paddingTop: "10rem" }}>
                 <h2>
                   My <br />
@@ -173,7 +173,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-sm-6 col-md-8">
+            <div className="col-sm-12 col-md-6 col-lg-8">
               <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
@@ -181,12 +181,12 @@ export default function Home() {
                     <div className="position-absolute bottom-0 w-100">
                       <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-2">
                             Live View <FaArrowRight />
                           </a>
                         </div>
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-3">
                             Github <FaArrowRight />
                           </a>
                         </div>
@@ -200,12 +200,12 @@ export default function Home() {
                     <div className="position-absolute bottom-0 w-100">
                       <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-2">
                             Live View <FaArrowRight />
                           </a>
                         </div>
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-3">
                             Github <FaArrowRight />
                           </a>
                         </div>
@@ -219,12 +219,12 @@ export default function Home() {
                     <div className="position-absolute bottom-0 w-100">
                       <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-2">
                             Live View <FaArrowRight />
                           </a>
                         </div>
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-3">
                             Github <FaArrowRight />
                           </a>
                         </div>
@@ -238,12 +238,12 @@ export default function Home() {
                     <div className="position-absolute bottom-0 w-100">
                       <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-2">
                             Live View <FaArrowRight />
                           </a>
                         </div>
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-3">
                             Github <FaArrowRight />
                           </a>
                         </div>
@@ -257,12 +257,12 @@ export default function Home() {
                     <div className="position-absolute bottom-0 w-100">
                       <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-2">
                             Live View <FaArrowRight />
                           </a>
                         </div>
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-3">
                             Github <FaArrowRight />
                           </a>
                         </div>
@@ -276,12 +276,12 @@ export default function Home() {
                     <div className="position-absolute bottom-0 w-100">
                       <div className="d-flex justify-content-between gap-3 p-3 button-bg-color">
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-2">
                             Live View <FaArrowRight />
                           </a>
                         </div>
                         <div className="cta-btn">
-                          <a className="btn px-4">
+                          <a className="btn px-3">
                             Github <FaArrowRight />
                           </a>
                         </div>
@@ -289,6 +289,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -488,124 +489,6 @@ export default function Home() {
         </div>
       </section>
 
-      <div class="logos-slider">
-        <div class="logos-slider-container">
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-        </div>
-
-        <div class="logos-slider-container">
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-          <div className="item">
-            <h2>
-              {" "}
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </h2>
-          </div>
-        </div>
-      </div>
-
       <section className="news-letter-section">
         <div className="container">
           <div className="common-card py-5">
@@ -624,19 +507,14 @@ export default function Home() {
                     <img src={News_letter_img_three} className="img-fluid" />
                   </div>
                   <div className="row">
-                    <div className="col-sm-6 col-xl-6">
+                    <div className="col-sm-12 col-md-6 col-xl-6">
                       <img
                         src={News_letter_img_one}
                         className="img-fluid rounded"
                         alt="Here is an image"
                       />
                     </div>
-                    <style
-                      dangerouslySetInnerHTML={{
-                        __html: "\n\n                    ",
-                      }}
-                    />
-                    <div className="col-sm-6 col-xl-6">
+                    <div className="col-sm-12 col-md-6 col-xl-6">
                       <div className="d-flex justify-content-center align-items-center w-100 h-100">
                         <div className="card bg-transparent border-0">
                           <div className="text-center">

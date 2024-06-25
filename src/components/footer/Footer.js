@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="footer-top">
           <div className="container">
             <div className="row">
-              <div className="col-lg-4">
+              <div className="col-12 col-sm-6 col-md-6 col-lg-4 py-3 py-md-0">
                 <h4>About Me</h4>
                 <p>
                   Lorem Ipsum ist einfach Dummy-Text der Druck- und
@@ -24,7 +24,7 @@ export default function Footer() {
                   Lorem Ipsum war der Standard der Branche
                 </p>
               </div>
-              <div className="col-md-4">
+              <div className="col-12 col-sm-6 col-md-6 col-lg-4 py-3 py-md-0">
                 <h4>Information</h4>
                 <ul className="address1">
                   <li>
@@ -40,7 +40,7 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col-md-4">
+              <div className="col-12 col-sm-6 col-md-6 col-lg-4 py-3 py-md-0">
                 <h4>Follow Me</h4>
                 <div className="d-flex gap-3 py-2">
                   <Link
@@ -77,10 +77,10 @@ export default function Footer() {
           <hr className="p-0 m-0" />
           <div className="container">
             <div className="row py-3">
-              <div className="col-sm-5">
+              <div className="col-12 col-sm-6">
                 <p className="copyright text-uppercase">Copyright © 2024</p>
               </div>
-              <div className="col-sm-7">
+              <div className="col-12 col-sm-6 d-flex justify-content-md-end justify-content-start">
                 <ul>
                   <li>
                     <Link to="/contact" className="text-secondary fs-6">

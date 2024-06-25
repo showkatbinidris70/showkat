@@ -21,7 +21,7 @@ export default function Hero() {
               style={{ height: "100vh" }}
             >
               <div>
-                <div className="d-flex gap-2 hero-slogan align-items-center">
+                <div className="d-flex gap-2 hero-slogan align-items-center d-none">
                   {" "}
                   <FaStarOfLife style={{ color: "#76a9f8" }} />{" "}
                   <p>A SLEEK DESINGED TEMPLATE</p>
@@ -37,12 +37,12 @@ export default function Hero() {
                 </p>
                 <div className="d-flex gap-3 my-4">
                   <div className="cta-btn">
-                    <a className="btn py-3 mt-4 px-4">
+                    <a className="btn py-3 mt-4 px-2 px-md-4">
                       Book a free call <FaArrowRight />
                     </a>
                   </div>
                   <div className="cta-btn">
-                    <a className="btn py-3 mt-4 px-5">
+                    <a className="btn py-3 mt-4 px-4 px-md-5">
                       View Work <FaArrowRight />
                     </a>
                   </div>

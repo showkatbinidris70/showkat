@@ -19,13 +19,15 @@ export default function About() {
       <>
         <BreadCrumb />
 
+
+
         <div
           className="work-experience py-5"
           style={{ backgroundColor: "#ddd" }}
         >
           <div className="container">
             <div className="row">
-              <h2 className="fs-1 py-3">Work Experience</h2>
+              <h2 className="py-3">Work Experience</h2>
               <ul className="timeline">
                 <li>
                   <div className="timeline-badge">
@@ -176,67 +178,6 @@ export default function About() {
           </div>
         </div>
 
-        <div className="container pt-5">
-          <div className="row">
-            <div class="logos-slider">
-              <div class="logos-slider-container">
-                <div className="item">
-                  <h2>
-                    <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-                <div className="item">
-                  <h2>
-                    Get In Touch <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-                <div className="item">
-                  <h2>
-                    Get In Touch <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-                <div className="item">
-                  <h2>
-                    Get In Touch <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-                <div className="item">
-                  <h2>
-                    Get In Touch <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-              </div>
-
-              <div class="logos-slider-container">
-                <div className="item">
-                  <h2>
-                    Get In Touch <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-                <div className="item">
-                  <h2>
-                    Get In Touch <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-                <div className="item">
-                  <h2>
-                    Get In Touch <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-                <div className="item">
-                  <h2>
-                    Get In Touch <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-                <div className="item">
-                  <h2>
-                    Get In Touch <FaStarOfLife className="px-2" />
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <section className="common-card py-5">
           <div className="container">
