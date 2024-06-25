@@ -26,9 +26,10 @@ export default function Hero() {
                   <FaStarOfLife style={{ color: "#76a9f8" }} />{" "}
                   <p>A SLEEK DESINGED TEMPLATE</p>
                 </div>
-                <h3 className="my-4">
-                  I am a Frontend Developer and no-code enthusiast
-                </h3>
+                <h1 className="my-4">
+                  I am a <br />
+                  Frontend Developer
+                </h1>
                 <p className="desc">
                   Transforming concepts into tangible digital solutions, Magoz
                   excels in crafting innovative web solutions that bring ideas

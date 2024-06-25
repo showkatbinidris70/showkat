@@ -156,13 +156,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="projects mb-5">
+      <section className="projects">
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-md-4">
               <div className="sticky-top" style={{ paddingTop: "10rem" }}>
-                <h2>My Projects</h2>
-                <p>
+                <h2>
+                  My <br />
+                  Projects
+                </h2>
+                <p className="py-3">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Tempore eveniet earum debitis ad cum atque architecto nulla
                   accusamus soluta tenetur at, perspiciatis, quia eius minima
@@ -172,7 +175,7 @@ export default function Home() {
             </div>
             <div className="col-sm-6 col-md-8">
               <div className="row">
-                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3">
+                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
                     <img src={Project_image} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
@@ -191,7 +194,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3">
+                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
                     <img src={Project_image} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
@@ -210,7 +213,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3">
+                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
                     <img src={Project_image} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
@@ -229,7 +232,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3">
+                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
                     <img src={Project_image} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
@@ -248,7 +251,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3">
+                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
                     <img src={Project_image} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
@@ -267,7 +270,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3">
+                <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0">
                   <div className="window position-relative">
                     <img src={Project_image} className="img-fluid pt-3 px-3" />
                     <div className="position-absolute bottom-0 w-100">
@@ -295,9 +298,9 @@ export default function Home() {
       <section className="testimonial-section">
         <div className="large-container">
           <div className="container">
-            <div className="sec-title p-5 mb-5">
+            <div className="sec-title">
               <span className="title">Testimonial</span>
-              <h4>What Our core client say ?</h4>
+              <h3>What Our core client say ?</h3>
             </div>
             <div className="row" style={{ marginTop: "10rem" }}>
               <div className="col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-9">

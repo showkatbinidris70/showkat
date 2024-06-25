@@ -191,6 +191,9 @@ body {
 
 /* features end */
 /* projects start */
+.projects {
+  margin-bottom: 5rem;
+}
 .projects .window {
   width: 100%;
   margin: auto;
@@ -738,7 +741,6 @@ li {
 
 .testimonial-section {
   position: relative;
-  padding-top: 50px;
   padding-bottom: 210px;
   overflow: hidden;
   height: 100%;
@@ -798,7 +800,7 @@ li {
 
 /* news letter start */
 .news-letter-section {
-  margin: 5rem 0rem;
+  /* margin: 5rem 0rem; */
 }
 .news-letter-section .h-search-form {
   position: relative;
@@ -917,6 +919,20 @@ li {
   font-size: 4rem;
   color: #7c75f4;
 }
+h1 {
+  background-image: linear-gradient(45deg, #7c75f4, #76a9f8);
+  font-family: "Bricolage Grotesque, sans-serif";
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  line-height: 1.1;
+  font-weight: 600;
+  font-size: 4.5rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 h2 {
   background-image: linear-gradient(45deg, #7c75f4, #76a9f8);
   font-family: "Bricolage Grotesque, sans-serif";
@@ -925,7 +941,7 @@ h2 {
   background-clip: text;
   line-height: 1.1;
   font-weight: 600;
-  font-size: 5rem;
+  font-size: 3.5rem;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -939,7 +955,7 @@ h3 {
   background-clip: text;
   line-height: 1.1;
   font-weight: 600;
-  font-size: 3.5rem;
+  font-size: 3rem;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -1105,8 +1121,12 @@ footer .footer-top h4 {
 }
 
 footer .footer-top p {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 footer p {
@@ -1121,8 +1141,7 @@ footer .footer-logo {
 footer .address1 li {
   list-style: none;
   position: relative;
-  padding: 0px 0 14px 34px;
-  line-height: 26px;
+  line-height: 32px;
 }
 
 ufooter l.address1 span {
@@ -1163,7 +1182,7 @@ footer .social-icon li i:hover {
 footer .footer-bottom {
   /* background: var(--bg_forth); */
   background: #01f0f415;
-  padding: 10px 0px;
+  /* padding: 10px 0px; */
 }
 
 footer .footer-bottom ul li {

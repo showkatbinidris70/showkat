@@ -73,10 +73,10 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="footer-bottom py-3">
-          <hr />
+        <div className="footer-bottom">
+          <hr className="p-0 m-0" />
           <div className="container">
-            <div className="row">
+            <div className="row py-3">
               <div className="col-sm-5">
                 <p className="copyright text-uppercase">Copyright © 2024</p>
               </div>
