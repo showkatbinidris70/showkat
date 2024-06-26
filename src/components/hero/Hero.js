@@ -3,12 +3,9 @@ import { Link } from "react-router-dom";
 import hero_image from "../../assets/images/hero-image.png";
 import {
   FaStarOfLife,
-  FaXTwitter,
-  FaInstagram,
   FaArrowRight,
 } from "react-icons/fa6";
 import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 //importing typewriter-effect
