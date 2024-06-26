@@ -1,4 +1,3 @@
-import React from "react";
 import BreadCrumb from "../components/breadcrumb/BreadCrumb";
 import { Link } from "react-router-dom";
 import {
@@ -11,14 +10,35 @@ import { MdEmail } from "react-icons/md";
 import { FaWhatsapp, FaSkype } from "react-icons/fa";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 export default function Contact() {
+  const form = useRef();
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_pvssrek", "template_yu2tizv", form.current, {
+        publicKey: "ajgTLMNQF9GbF_JYn",
+      })
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
   return (
     <div>
       <>
         <section className="common-card" style={{ paddingTop: "5rem" }}>
           <div className="container">
             <div className="d-flex justify-content-center text-center py-5">
-              <div className="col-6">
+              <div className="col-sm-12 col-md-12 col-lg-10 col-xl-6">
                 <h2>Get in touch today to schedule your call</h2>
               </div>
             </div>
@@ -74,7 +94,7 @@ export default function Contact() {
                       </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-8">
-                      <form>
+                      <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-3">
                           <label htmlFor="name" className="form-label">
                             Name
@@ -85,6 +105,7 @@ export default function Contact() {
                             id="name"
                             placeholder="Enter your name"
                             aria-describedby="name"
+                            name="name"
                           />
                         </div>
                         <div className="mb-3">
@@ -100,6 +121,7 @@ export default function Contact() {
                             id="exampleInputEmail1"
                             aria-describedby="emailHelp"
                             placeholder="Enter your email"
+                            name="email"
                           />
                         </div>
                         <div className="mb-3">
@@ -112,6 +134,7 @@ export default function Contact() {
                             id="subject"
                             aria-describedby="subject"
                             placeholder="Enter your subject"
+                            name="subject"
                           />
                         </div>
                         <div className="mb-3">
@@ -125,6 +148,7 @@ export default function Contact() {
                               id="message"
                               style={{ height: 100 }}
                               defaultValue={""}
+                              name="message"
                             />
                             <label htmlFor="floatingTextarea2">
                               Comments here

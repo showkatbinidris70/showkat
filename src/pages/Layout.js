@@ -65,18 +65,31 @@ export default function Layout() {
                         </Link>
                       </li>
                       <li className="nav-item rounded">
-                        <Link className="nav-link" to="/projects">
+                        <Link
+                          className="nav-link"
+                          aria-current="page"
+                          to="/projects"
+                          onClick={closeNav}
+                        >
                           Projects
                         </Link>
                       </li>
                       <li className="nav-item rounded">
-                        <Link className="nav-link" to="/contact">
+                        <Link
+                          className="nav-link"
+                          aria-current="page"
+                          to="/contact"
+                          onClick={closeNav}
+                        >
                           Contact
                         </Link>
                       </li>
                       <li className="nav-item rounded">
-                        <Link className="nav-link text-white rounded px-3 cta-btn">
-                          <p className="btn" style={{marginTop:"-8px"}}> Download Resume</p>
+                        <Link className="nav-link text-white rounded px-0 mx-lg-3 cta-btn">
+                          <p className="btn" style={{ marginTop: "-8px" }}>
+                            {" "}
+                            Download Resume
+                          </p>
                         </Link>
                       </li>
                     </ul>
