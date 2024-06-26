@@ -1,164 +1,142 @@
 import React from "react";
 import BreadCrumb from "../components/breadcrumb/BreadCrumb";
-import { FaStarOfLife, FaArrowRight } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+import {
+  FaStarOfLife,
+  FaXTwitter,
+  FaInstagram,
+  FaArrowRight,
+} from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+import { FaWhatsapp, FaSkype } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 export default function Contact() {
   return (
     <div>
       <>
-        <section class="breadcrumb w-100">
-          <div class="container">
-            <div class="row">
-              <h2 class="title">Contact Us </h2>
-              <div class="pt-3">
-                <h4 class="btn py-3 px-5">
-                  <a class="" href="/">
-                    Home
-                  </a>{" "}
-                  <span>
-                    <i class="fa-solid fa-angles-right"></i>
-                    Contact Us
-                  </span>
-                </h4>
+        <section className="common-card" style={{ paddingTop: "5rem" }}>
+          <div className="container">
+            <div className="d-flex justify-content-center text-center py-5">
+              <div className="col-6">
+                <h2>Get in touch today to schedule your call</h2>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section className="d-none">
-          <div className="container">
-            <div className="row">
-              <div className="d-flex justify-content-center">
-                <div className="col-10">
-                  <div className="common-card py-5">
-                    <div className="container">
-                      <div className="row my-5">
-                        <div className="card border-0 card-shadow py-5 px-5 text-center">
-                          <h3 className="pt-3 px-5">
-                            Let's create something amazing together
-                          </h3>
-                          <div className="cta-btn">
-                            <a className="btn py-3 mt-4">
-                              showkatbinidris70@gmail.com <FaArrowRight />
-                            </a>
+            <div className="d-flex justify-content-center">
+              <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-10">
+                <div className="card border-0 card-shadow py-5 px-2 px-md-3 px-lg-5">
+                  <div className="row">
+                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                      <div className="">
+                        <div className="mb-5">
+                          <h5>Contact information</h5>
+                          <p>
+                            This vintage store is carefully curated antstore is
+                            decorated as if it home.
+                          </p>
+                        </div>
+                        <div className="d-flex gap-3 align-items-center my-4">
+                          <Link
+                            to="/contact"
+                            className="social-icons d-flex justify-content-center align-items-center"
+                          >
+                            <MdEmail className="fs-1" />
+                          </Link>
+                          <div>
+                            <p>Chat to project</p>
+                            <p>showkatbinidris70@gmail.com</p>
+                          </div>
+                        </div>
+                        <div className="d-flex gap-3 align-items-center my-4">
+                          <Link
+                            to="/contact"
+                            className="social-icons d-flex justify-content-center align-items-center"
+                          >
+                            <FaWhatsapp className="fs-1" />
+                          </Link>
+                          <div>
+                            <p>Whats App Chat</p>
+                            <p>+8801572133260</p>
+                          </div>
+                        </div>
+                        <div className="d-flex gap-3 align-items-center my-4">
+                          <Link
+                            to="/contact"
+                            className="social-icons d-flex justify-content-center align-items-center"
+                          >
+                            <FaSkype className="fs-1" />
+                          </Link>
+                          <div>
+                            <p>Skype</p>
+                            <p>live:.cid.6ecfd213bf45a363</p>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="d-none">
-          <div className="container">
-            <div className="row">
-              <div className="d-flex justify-content-center">
-                <div className="col-10">
-                  <div className="common-card py-5">
-                    <div className="container">
-                      <div className="row my-5">
-                        <div className="card border-0 card-shadow py-5 px-5 text-center">
-                          sss
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="common-card py-5 d-none">
-          <div className="container">
-            <div className="row my-5">
-              <div className="card border-0 card-shadow py-5 px-5 text-center">
-                <div className="asterisk"></div>
-                <h2 className="pt-3 px-5">
-                  Let's create something amazing together
-                </h2>
-                <div className="cta-btn">
-                  <a className="btn py-3 mt-4">showkatbinidris70@gmail.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="contact_us mt-5">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-md-10">
-                <div className="contact_inner">
-                  <div className="row">
-                    <div className="col-lg-8">
-                      <div className="contact_form_inner">
-                        <div className="contact_field">
-                          <h3>Contact Us</h3>
-                          <p>
-                            Feel Free to contact us any time. We will get back
-                            to you as soon as we can!
-                          </p>
+                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-8">
+                      <form>
+                        <div className="mb-3">
+                          <label htmlFor="name" className="form-label">
+                            Name
+                          </label>
                           <input
                             type="text"
-                            className="form-control form-group"
-                            placeholder="Name"
+                            className="form-control bg-transparent"
+                            id="name"
+                            placeholder="Enter your name"
+                            aria-describedby="name"
                           />
+                        </div>
+                        <div className="mb-3">
+                          <label
+                            htmlFor="exampleInputEmail1"
+                            className="form-label bg-transparent"
+                          >
+                            Email address
+                          </label>
+                          <input
+                            type="email"
+                            className="form-control bg-transparent"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                            placeholder="Enter your email"
+                          />
+                        </div>
+                        <div className="mb-3">
+                          <label htmlFor="subject" className="form-label">
+                            Subject
+                          </label>
                           <input
                             type="text"
-                            className="form-control form-group"
-                            placeholder="Email"
+                            className="form-control bg-transparent"
+                            id="subject"
+                            aria-describedby="subject"
+                            placeholder="Enter your subject"
                           />
-                          <textarea
-                            className="form-control form-group"
-                            placeholder="Message"
-                            defaultValue={""}
-                          />
-                          <button className="contact_form_submit">Send</button>
                         </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-4">
-                      <div className="contact_info_sec mt-4 mt-lg-0">
-                        <h4>Contact Info</h4>
-                        <div className="d-flex info_single align-items-center">
-                          <i className="fas fa-headset" />
-                          <span>+91 8009 054294</span>
+                        <div className="mb-3">
+                          <label htmlFor="message" className="form-label">
+                            Message
+                          </label>
+                          <div className="form-floating">
+                            <textarea
+                              className="form-control bg-transparent"
+                              placeholder="Leave a comment here"
+                              id="message"
+                              style={{ height: 100 }}
+                              defaultValue={""}
+                            />
+                            <label htmlFor="floatingTextarea2">
+                              Comments here
+                            </label>
+                          </div>
                         </div>
-                        <div className="d-flex info_single align-items-center">
-                          <i className="fas fa-envelope-open-text" />
-                          <span>info@flightmantra.com</span>
+                        <div className="cta-btn">
+                          <button type="submit" class="btn px-3">
+                            Send Message <FaArrowRight />
+                          </button>
                         </div>
-                        <div className="d-flex info_single align-items-center">
-                          <i className="fas fa-map-marked-alt" />
-                          <span>
-                            1000+ Travel partners and 65+ Service city across
-                            India, USA, Canada &amp; UAE
-                          </span>
-                        </div>
-                      </div>
-                      <div className="right_contact_social_icon d-flex align-items-end mt-4">
-                        <ul className="social_item_inner d-flex list-unstyled">
-                          <li>
-                            <a href="#">
-                              <i className="fab fa-facebook-square" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="fab fa-instagram" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="fab fa-twitter" />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+                      </form>
                     </div>
                   </div>
                 </div>
