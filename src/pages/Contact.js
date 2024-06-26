@@ -1,37 +1,19 @@
-import BreadCrumb from "../components/breadcrumb/BreadCrumb";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import {
-  FaStarOfLife,
-  FaXTwitter,
-  FaInstagram,
-  FaArrowRight,
-} from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaWhatsapp, FaSkype } from "react-icons/fa";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Contact() {
-  const form = useRef();
+  useEffect(() => {
+    AOS.init({
+      once: "true",
+    });
+  }, []);
 
-  function sendEmail(e) {
-    e.preventDefault();
-
-    emailjs
-      .sendForm("service_pvssrek", "template_yu2tizv", form.current, {
-        publicKey: "ajgTLMNQF9GbF_JYn",
-      })
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  }
   return (
     <div>
       <>
@@ -42,7 +24,11 @@ export default function Contact() {
                 <h2>Get in touch today to schedule your call</h2>
               </div>
             </div>
-            <div className="d-flex justify-content-center">
+            <div
+              className="d-flex justify-content-center"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-10">
                 <div className="card border-0 card-shadow py-5 px-2 px-md-3 px-lg-5">
                   <div className="row">
@@ -94,7 +80,7 @@ export default function Contact() {
                       </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-8">
-                      <form ref={form} onSubmit={sendEmail}>
+                      <form>
                         <div className="mb-3">
                           <label htmlFor="name" className="form-label">
                             Name
@@ -169,7 +155,11 @@ export default function Contact() {
           </div>
         </section>
 
-        <section className="map_sec py-5">
+        <section
+          className="map_sec py-5"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-10">

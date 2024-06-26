@@ -295,7 +295,9 @@ body {
 }
 
 /* breadcrumb end */
-
+.card{
+  /* z-index: 999; */
+}
 /* contact us start */
 .map_sec .map_sec {
   padding: 50px 0;

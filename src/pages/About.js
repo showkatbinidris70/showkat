@@ -1,32 +1,42 @@
-import BreadCrumb from "../components/breadcrumb/BreadCrumb";
 import { FaStarOfLife, FaArrowRight } from "react-icons/fa6";
-import Project_image from "../assets/images/project-image.png";
 import React, { useEffect, useRef } from "react";
-import Hero from "../components/hero/Hero";
-import News_letter_img_one from "../assets/images/pexels-goumbik-653429.jpg";
-import News_letter_img_two from "../assets/images/undefined - Imgur.png";
-import News_letter_img_three from "../assets/images/img-002.png";
-import slider_image_two from "../assets/images/slider image 2.png";
-import Rectangle3_image from "../assets/images/Rectangle3.png";
-import quote_image from "../assets/images/quote.png";
-import { MdOutlineWebhook } from "react-icons/md";
-import { RiDoubleQuotesL } from "react-icons/ri";
-import developer_image from '../assets/images/hero-image.png'
-// import Project_image from '../assets/images/project-image.png'
+import developer_image from "../assets/images/hero-image.png";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function About() {
+  useEffect(() => {
+    AOS.init({
+      once: "true",
+    });
+  }, []);
+
   return (
     <div className="about-section">
-      <div className="container" style={{ paddingTop: "6rem" }}>
+      <div
+        className="container"
+        style={{ paddingTop: "6rem" }}
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <div className="row">
           <div className="title-name text-center">
             <img src={developer_image} className="img-fluid" />
-            <h1>Showkat Ali</h1>
-            <h4>Front-end Developer</h4>
+            <h1 data-aos="fade-left" data-aos-duration="2000">
+              Showkat Ali
+            </h1>
+            <h4 data-aos="fade-right" data-aos-duration="2000">
+              Front-end Developer
+            </h4>
           </div>
         </div>
       </div>
-      <div className="container pt-5">
+      <div
+        className="container pt-5"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-7">
             <h5>
@@ -58,7 +68,9 @@ export default function About() {
                         Business management - paper work, banking and payments
                       </li>
                       <li>Recruitment, evaluation and supervision of staff</li>
-                      <li>Customer service: sales, reservations or any issue</li>
+                      <li>
+                        Customer service: sales, reservations or any issue
+                      </li>
                       <li>Stock organization</li>
                     </ul>
                   </td>
@@ -66,11 +78,13 @@ export default function About() {
                 </tr>
                 <tr>
                   <td>
-                    Marettimo Residence (Egadi Project - Italy) assistant manager
+                    Marettimo Residence (Egadi Project - Italy) assistant
+                    manager
                     <br />
                     <ul>
                       <li>
-                        Welcoming customer, presenting the structure and apartments.
+                        Welcoming customer, presenting the structure and
+                        apartments.
                       </li>
                       <li>Managing the staff and organization.</li>
                       <li>Resolution of small general issues</li>
@@ -84,17 +98,17 @@ export default function About() {
                     <br />
                     <ul>
                       <li>
-                        Organization of the procedures of planning and monitoring
-                        the photoshoot.
+                        Organization of the procedures of planning and
+                        monitoring the photoshoot.
                       </li>
                       <li>
                         Responsible for casting models, photographers, make-up
                         artists, etc.
                       </li>
                       <li>
-                        Supervision of the logistic and everything needed to carry
-                        out the campaign like: finding location, accommodation,
-                        catering.
+                        Supervision of the logistic and everything needed to
+                        carry out the campaign like: finding location,
+                        accommodation, catering.
                       </li>
                     </ul>
                   </td>
@@ -103,7 +117,8 @@ export default function About() {
               </tbody>
             </table>
             <h5>
-              <i className="fa fa-graduation-cap" aria-hidden="true" /> Education
+              <i className="fa fa-graduation-cap" aria-hidden="true" />{" "}
+              Education
             </h5>
             <p>
               <strong>Elatt - Professional Training &amp; Coaching </strong>
@@ -144,7 +159,8 @@ export default function About() {
               <p className="contact">
                 Dhaka, Bangladesh <br />
                 E-mail: showkatbinidris70@gmail.com
-                <br />Birth Place: Bangladesh
+                <br />
+                Birth Place: Bangladesh
               </p>
             </div>
             <div className="skills">
@@ -163,22 +179,67 @@ export default function About() {
                 <div className="col-md-7 col-xs-6">
                   <ul id="level">
                     <li>
-                      <i className="fa fa-square p-1" style={{ color: "#7c75f4" }} aria-hidden="true" />
-                      <i className="fa fa-square p-1" style={{ color: "#7c75f4" }} aria-hidden="true" />
-                      <i className="fa fa-square p-1" style={{ color: "#7c75f4" }} aria-hidden="true" />
-                      <i className="fa fa-square p-1" style={{ color: "#7c75f4" }} aria-hidden="true" />
+                      <i
+                        className="fa fa-square p-1"
+                        style={{ color: "#7c75f4" }}
+                        aria-hidden="true"
+                      />
+                      <i
+                        className="fa fa-square p-1"
+                        style={{ color: "#7c75f4" }}
+                        aria-hidden="true"
+                      />
+                      <i
+                        className="fa fa-square p-1"
+                        style={{ color: "#7c75f4" }}
+                        aria-hidden="true"
+                      />
+                      <i
+                        className="fa fa-square p-1"
+                        style={{ color: "#7c75f4" }}
+                        aria-hidden="true"
+                      />
                     </li>
                     <li>
-                      <i className="fa fa-square p-1" style={{ color: "#7c75f4" }} aria-hidden="true" />
-                      <i className="fa fa-square p-1" style={{ color: "#7c75f4" }} aria-hidden="true" />
-                      <i className="fa fa-square p-1" style={{ color: "#7c75f4" }} aria-hidden="true" />
-                      <i className="fa fa-square p-1 text-secondary" aria-hidden="true" />
+                      <i
+                        className="fa fa-square p-1"
+                        style={{ color: "#7c75f4" }}
+                        aria-hidden="true"
+                      />
+                      <i
+                        className="fa fa-square p-1"
+                        style={{ color: "#7c75f4" }}
+                        aria-hidden="true"
+                      />
+                      <i
+                        className="fa fa-square p-1"
+                        style={{ color: "#7c75f4" }}
+                        aria-hidden="true"
+                      />
+                      <i
+                        className="fa fa-square p-1 text-secondary"
+                        aria-hidden="true"
+                      />
                     </li>
                     <li>
-                      <i className="fa fa-square p-1" style={{ color: "#7c75f4" }} aria-hidden="true" />
-                      <i className="fa fa-square p-1" style={{ color: "#7c75f4" }} aria-hidden="true" />
-                      <i className="fa fa-square p-1 text-secondary" aria-hidden="true" />
-                      <i className="fa fa-square p-1 text-secondary" aria-hidden="true" />
+                      <i
+                        className="fa fa-square p-1"
+                        style={{ color: "#7c75f4" }}
+                        aria-hidden="true"
+                      />
+                      <i
+                        className="fa fa-square p-1"
+                        style={{ color: "#7c75f4" }}
+                        aria-hidden="true"
+                      />
+                      <i
+                        className="fa fa-square p-1 text-secondary"
+                        aria-hidden="true"
+                      />
+                      <i
+                        className="fa fa-square p-1 text-secondary"
+                        aria-hidden="true"
+                      />
                     </li>
                   </ul>
                 </div>
@@ -213,11 +274,12 @@ export default function About() {
                 <p>
                   I enjoy learning new skills and I am confident in working with
                   different cultures and countries. I am energetic, outgoing and
-                  with excellent capacity to adapt to new challenges. As an active
-                  learner and strong team player I’m able to work in any diverse
-                  &amp; fast-paced environment and also take full responsibility for
-                  my own personal development. At the moment I am a developer
-                  autodidact updating my knowledge for my career change.
+                  with excellent capacity to adapt to new challenges. As an
+                  active learner and strong team player I’m able to work in any
+                  diverse &amp; fast-paced environment and also take full
+                  responsibility for my own personal development. At the moment
+                  I am a developer autodidact updating my knowledge for my
+                  career change.
                 </p>
               </div>
             </div>
@@ -246,24 +308,23 @@ export default function About() {
                   <div className="timeline-body">
                     <ul style={{ padding: "0 40px" }}>
                       <li>
-                        Maintain assets on network of brand sites utilizing
-                        XML, JQuery, XSLT &amp; JavaScript.
+                        Maintain assets on network of brand sites utilizing XML,
+                        JQuery, XSLT &amp; JavaScript.
                       </li>
                       <li>
                         Prioritize and address web requests to ensure requests
                         are effectively resolved in a timely manner.
                       </li>
                       <li>
-                        Collaborate with department staff to ensure
-                        user-focused design and launch of interactive web
-                        initiatives.
+                        Collaborate with department staff to ensure user-focused
+                        design and launch of interactive web initiatives.
                       </li>
                       <li>
-                        Develop, enhance, maintain and support web
-                        applications in Interwoven TeamSite CMS to evaluate
-                        the effectiveness, usability, and accessibility of Web
-                        sites and make recommendations for enhancements to Web
-                        sites overall effectiveness.
+                        Develop, enhance, maintain and support web applications
+                        in Interwoven TeamSite CMS to evaluate the
+                        effectiveness, usability, and accessibility of Web sites
+                        and make recommendations for enhancements to Web sites
+                        overall effectiveness.
                       </li>
                     </ul>
                   </div>
@@ -284,8 +345,7 @@ export default function About() {
                   </div>
                   <div className="timeline-body">
                     <p>
-                      Clients (Results Marketing, Red News, Weight Loss
-                      Houston)
+                      Clients (Results Marketing, Red News, Weight Loss Houston)
                     </p>
                   </div>
                   <div className="timeline-footer">
@@ -305,10 +365,9 @@ export default function About() {
                   </div>
                   <div className="timeline-body">
                     <p>
-                      Designed, developed and successfully implemented
-                      eLearning web sites for new employees within the global
-                      team of Vestas Intranet, a research company with 20,000
-                      employees.
+                      Designed, developed and successfully implemented eLearning
+                      web sites for new employees within the global team of
+                      Vestas Intranet, a research company with 20,000 employees.
                     </p>
                     <ul style={{ padding: "0 40px" }}>
                       <li>
@@ -319,10 +378,9 @@ export default function About() {
                       </li>
                       <li>
                         Maintained and continually enhanced intranet web sites
-                        without management supervision. Refreshed the looks
-                        and recreated some of the training web sites, since
-                        old technology was used and outdated data was
-                        implemented.
+                        without management supervision. Refreshed the looks and
+                        recreated some of the training web sites, since old
+                        technology was used and outdated data was implemented.
                       </li>
                       <li>
                         Wrote and published weekly newsletters action updates.
@@ -347,8 +405,8 @@ export default function About() {
                   <div className="timeline-body">
                     <p>
                       Responsible for development and support of corporate web
-                      sites (IADC, DEA, Careers @ IADC, Drilling Contractor)
-                      all running on Joomla CMS.
+                      sites (IADC, DEA, Careers @ IADC, Drilling Contractor) all
+                      running on Joomla CMS.
                     </p>
                     <ul style={{ padding: "0 40px" }}>
                       <li>
@@ -382,7 +440,11 @@ export default function About() {
         </div>
       </div>
 
-      <section className="common-card">
+      <section
+        className="common-card"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <div className="container">
           <div className="row my-5">
             <div className="card border-0 card-shadow py-5 px-0 px-md-3 px-lg-5 text-center">
