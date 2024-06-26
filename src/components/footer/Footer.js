@@ -38,7 +38,7 @@ export default function Footer() {
                 <h4>Follow Me</h4>
                 <div className="d-flex gap-3 py-2">
                   <Link
-                    to="/https://www.facebook.com/salibinidris/"
+                    to="https://www.facebook.com/salibinidris/"
                     target="_blank"
                     className="social-icons d-flex justify-content-center align-items-center"
                     data-aos="zoom-in"
@@ -47,7 +47,7 @@ export default function Footer() {
                     <FaFacebookF />
                   </Link>
                   <Link
-                    to="//https://www.linkedin.com/in/showkatbinidris/"
+                    to="https://www.linkedin.com/in/showkatbinidris/"
                     target="_blank"
                     className="social-icons d-flex justify-content-center align-items-center"
                     data-aos="zoom-in"
@@ -79,12 +79,12 @@ export default function Footer() {
               <div className="col-12 col-sm-6 d-flex justify-content-md-end justify-content-start">
                 <ul>
                   <li>
-                    <Link to="/contact" className="text-secondary fs-6">
+                    <Link to="/" className="text-secondary fs-6">
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link to="/contact" className="text-secondary fs-6">
+                    <Link to="/about" className="text-secondary fs-6">
                       About Me
                     </Link>
                   </li>

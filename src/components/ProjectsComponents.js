@@ -13,6 +13,8 @@ import "swiper/css/pagination";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+//importing typewriter-effect
+import Typewriter from "typewriter-effect";
 
 export default function ProjectsComponents() {
   useEffect(() => {
@@ -29,7 +31,14 @@ export default function ProjectsComponents() {
               <div className="sticky-top" style={{ paddingTop: "10rem" }}>
                 <h2>
                   My <br />
-                  Projects
+                  <Typewriter
+                    options={{
+                      strings: ['Projects', 'Works'],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+
                 </h2>
                 <p className="py-3">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.

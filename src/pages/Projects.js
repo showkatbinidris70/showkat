@@ -16,7 +16,7 @@ export default function Projects() {
         <div class="container">
           <div class="row">
             <h2 class="title">My Projects </h2>
-            <div class="pt-3">
+            <div class="pt-3 d-none">
               <h4 class="btn py-3 px-5">
                 <a class="" href="/">
                   Home

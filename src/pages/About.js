@@ -1,11 +1,11 @@
 import { FaStarOfLife, FaArrowRight } from "react-icons/fa6";
 import React, { useEffect, useRef } from "react";
 import developer_image from "../assets/images/hero-image.png";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
 import CommonCardComponent from "../components/CommonCardComponent";
+//importing typewriter-effect
+import Typewriter from "typewriter-effect";
 
 export default function About() {
   useEffect(() => {
@@ -29,7 +29,13 @@ export default function About() {
               Showkat Ali
             </h1>
             <h4 data-aos="fade-right" data-aos-duration="2000">
-              Front-end Developer
+              <Typewriter
+                options={{
+                  strings: [' Front-end Developer', ' Webflow Developer'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </h4>
           </div>
         </div>

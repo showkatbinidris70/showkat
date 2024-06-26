@@ -11,6 +11,8 @@ import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+//importing typewriter-effect
+import Typewriter from "typewriter-effect";
 
 export default function Hero() {
   useEffect(() => {
@@ -18,6 +20,9 @@ export default function Hero() {
       once: "true",
     });
   }, []);
+
+
+
   return (
     <div>
       <section className="home-hero">
@@ -39,7 +44,13 @@ export default function Hero() {
                   data-aos-duration="2000"
                 >
                   I am a <br />
-                  Frontend Developer
+                  <Typewriter
+                    options={{
+                      strings: ['Frontend Developer', 'Webflow Developer'],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
                 </h1>
                 <p className="desc">
                   Transforming concepts into tangible digital solutions, Magoz
@@ -52,13 +63,13 @@ export default function Hero() {
                   data-aos-duration="2000"
                 >
                   <div className="cta-btn">
-                    <Link to="/contact" className="btn py-3 mt-4 px-2 px-md-4">
-                      Book a free call <FaArrowRight />
+                    <Link to="/contact" className="btn py-3 mt-4 px-2 px-md-4 d-flex gap-1">
+                      Book a free call <FaArrowRight className="d-none d-sm-block" />
                     </Link>
                   </div>
                   <div className="cta-btn">
-                    <Link to="/projects" className="btn py-3 mt-4 px-4 px-md-5">
-                      View Work <FaArrowRight />
+                    <Link to="/projects" className="btn py-3 mt-4 px-4 px-md-5 d-flex gap-1">
+                      View Work <FaArrowRight className="d-none d-sm-block" />
                     </Link>
                   </div>
                 </div>
@@ -66,7 +77,7 @@ export default function Hero() {
                   <p>Used by top-tech companies</p>
                   <div className="d-flex gap-3 py-2">
                     <Link
-                      to="/https://www.facebook.com/salibinidris/"
+                      to="https://www.facebook.com/salibinidris/"
                       target="_blank"
                       className="social-icons d-flex justify-content-center align-items-center"
                       data-aos="zoom-in"
@@ -75,7 +86,7 @@ export default function Hero() {
                       <FaFacebookF />
                     </Link>
                     <Link
-                      to="//https://www.linkedin.com/in/showkatbinidris/"
+                      to="https://www.linkedin.com/in/showkatbinidris/"
                       target="_blank"
                       className="social-icons d-flex justify-content-center align-items-center"
                       data-aos="zoom-in"

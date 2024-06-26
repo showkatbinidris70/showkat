@@ -157,7 +157,7 @@ export default function Contact() {
 
         <section
           className="map_sec py-5"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-duration="2000"
         >
           <div className="container">
