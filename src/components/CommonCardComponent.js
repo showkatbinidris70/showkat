@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { FaStarOfLife, FaArrowRight } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function CommonCardComponent() {
   return (
@@ -15,9 +16,14 @@ export default function CommonCardComponent() {
                 Let's create something amazing together
               </h2>
               <div className="cta-btn">
-                <a className="btn py-3 mt-4">
+                <Link
+                  className="btn py-3 mt-4"
+                  to="/contact"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                >
                   showkatbinidris70@gmail.com <FaArrowRight />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

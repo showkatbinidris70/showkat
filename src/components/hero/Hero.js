@@ -7,7 +7,7 @@ import {
   FaInstagram,
   FaArrowRight,
 } from "react-icons/fa6";
-import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -66,7 +66,8 @@ export default function Hero() {
                   <p>Used by top-tech companies</p>
                   <div className="d-flex gap-3 py-2">
                     <Link
-                      to="/contact"
+                      to="/https://www.facebook.com/salibinidris/"
+                      target="_blank"
                       className="social-icons d-flex justify-content-center align-items-center"
                       data-aos="zoom-in"
                       data-aos-duration="2000"
@@ -74,29 +75,22 @@ export default function Hero() {
                       <FaFacebookF />
                     </Link>
                     <Link
-                      to="/contact"
-                      className="social-icons d-flex justify-content-center align-items-center"
-                      data-aos="zoom-in"
-                      data-aos-duration="2000"
-                    >
-                      <FaXTwitter />
-                    </Link>
-                    <Link
-                      to="/contact"
+                      to="//https://www.linkedin.com/in/showkatbinidris/"
+                      target="_blank"
                       className="social-icons d-flex justify-content-center align-items-center"
                       data-aos="zoom-in"
                       data-aos-duration="2000"
                     >
                       <FaLinkedinIn />
                     </Link>
-
                     <Link
-                      to="/contact"
+                      to="https://github.com/showkatbinidris70"
+                      target="_blank"
                       className="social-icons d-flex justify-content-center align-items-center"
                       data-aos="zoom-in"
                       data-aos-duration="2000"
                     >
-                      <FaInstagram />
+                      <FaGithub />
                     </Link>
                   </div>
                 </div>

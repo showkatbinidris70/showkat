@@ -4,6 +4,8 @@ import developer_image from "../assets/images/hero-image.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
+import CommonCardComponent from "../components/CommonCardComponent";
 
 export default function About() {
   useEffect(() => {
@@ -50,69 +52,31 @@ export default function About() {
                 </tr>
                 <tr>
                   <td>
-                    The Three Crowns (London/UK) waitress <br />
+                    Nano Information Technology (Nanosoft) <br />
                     <ul>
-                      <li>
-                        One step back in order to be able to have more time for
-                        studies.
-                      </li>
+                      <li>Ecommerce Side (Ekshop)</li>
+                      <li>Education Side (Noipunno)</li>
+                      <li>Bangladesh Railway Police Website</li>
                     </ul>
                   </td>
-                  <td className="year">2017 till present</td>
+                  <td className="year">
+                    2 May 2023 <br />
+                    till present
+                  </td>
                 </tr>
                 <tr>
                   <td>
-                    Sweet Thursday Pizzeria (London/UK) assistant manager <br />
+                    Benchmark Software Bangladesh Lit. <br />
                     <ul>
-                      <li>
-                        Business management - paper work, banking and payments
-                      </li>
-                      <li>Recruitment, evaluation and supervision of staff</li>
-                      <li>
-                        Customer service: sales, reservations or any issue
-                      </li>
-                      <li>Stock organization</li>
+                      <li>School Management</li>
+                      <li>Server Maintanece (DBA)</li>
                     </ul>
                   </td>
-                  <td className="year">2015 till September 2017</td>
-                </tr>
-                <tr>
-                  <td>
-                    Marettimo Residence (Egadi Project - Italy) assistant
-                    manager
+                  <td className="year">
+                    1 December 2021
                     <br />
-                    <ul>
-                      <li>
-                        Welcoming customer, presenting the structure and
-                        apartments.
-                      </li>
-                      <li>Managing the staff and organization.</li>
-                      <li>Resolution of small general issues</li>
-                    </ul>
+                    30 April 2023
                   </td>
-                  <td className="year">Summer 2014</td>
-                </tr>
-                <tr>
-                  <td>
-                    Project Manager - Fashion
-                    <br />
-                    <ul>
-                      <li>
-                        Organization of the procedures of planning and
-                        monitoring the photoshoot.
-                      </li>
-                      <li>
-                        Responsible for casting models, photographers, make-up
-                        artists, etc.
-                      </li>
-                      <li>
-                        Supervision of the logistic and everything needed to
-                        carry out the campaign like: finding location,
-                        accommodation, catering.
-                      </li>
-                    </ul>
-                  </td>
-                  <td className="year">2010 - 2014</td>
                 </tr>
               </tbody>
             </table>
@@ -121,34 +85,25 @@ export default function About() {
               Education
             </h5>
             <p>
-              <strong>Elatt - Professional Training &amp; Coaching </strong>
-              <br /> HTML, CSS &amp; Wordpress – Nov 2017 till present
+              <strong>IsDB-BISEW IT SCHOLARSHIP PROJECT</strong>
+              <br /> Diploma in Engineering (J2EE) – 30.09.2018 – 16.10.2019
             </p>
             <p>
-              <strong>Udacity - Google Challenge</strong>
-              <br /> HTML, CSS, JavaScript &amp; jQuery – Nov 2017 till present
+              <strong>BASIS</strong>
+              <br /> Mobile Application (Android) Training Program -09.10.2019 –
+              11.12.2019
             </p>
             <p>
-              <strong>SuperHi</strong>
-              <br /> HTML, CSS, JavaScript &amp; jQuery – 2017
+              <strong>Govt. Titumir College</strong>
+              <br /> Masters of Social Sciences (MSS) – 2015 - 2016-
             </p>
             <p>
-              <strong>Codecademy PRO Intensive</strong>
-              <br /> HTML, CSS, JavaScript &amp; Bootstrap – 2017
+              <strong>Govt. Titumir College,</strong>
+              <br /> Bachelor of Social Sciences (BSS) – 2010 - 2015
             </p>
             <p>
               <strong>Udemy</strong>
               <br /> The Web Developer Bootcamp – 2017
-            </p>
-            <p>
-              <strong>Graphic Design (48hrs) / Elite Training School</strong>
-              <br /> (Bal. Camboriú – SC / Brazil) – 2011
-            </p>
-            <p>
-              <strong>
-                Bachelor in Industrial Design / UNIVALI – University Of Itajaí
-              </strong>
-              <br /> (Bal. Camboriú – SC / Brazil) – 2006/1
             </p>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-5">
@@ -286,7 +241,6 @@ export default function About() {
           </div>
         </div>
       </div>
-
       <div
         className="work-experience py-5 d-none"
         style={{ backgroundColor: "#ddd" }}
@@ -440,29 +394,9 @@ export default function About() {
         </div>
       </div>
 
-      <section
-        className="common-card"
-        data-aos="fade-up"
-        data-aos-duration="2000"
-      >
-        <div className="container">
-          <div className="row my-5">
-            <div className="card border-0 card-shadow py-5 px-0 px-md-3 px-lg-5 text-center">
-              <div className="asterisk">
-                <FaStarOfLife className="text-center asterisk-icon" />
-              </div>
-              <h2 className="pt-3 px-0 px-md-3 px-lg-5">
-                Let's create something amazing together
-              </h2>
-              <div className="cta-btn">
-                <a className="btn py-3 mt-4">
-                  showkatbinidris70@gmail.com <FaArrowRight />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="mt-5" data-aos="fade-up" data-aos-duration="2000">
+        <CommonCardComponent />
+      </div>
     </div>
   );
 }

@@ -85,7 +85,11 @@ export default function Layout() {
                         </Link>
                       </li>
                       <li className="nav-item rounded">
-                        <Link className="nav-link text-white rounded px-0 mx-lg-3 cta-btn">
+                        <Link
+                          className="nav-link text-white rounded px-0 mx-lg-3 cta-btn"
+                          target="_blank"
+                          to="https://drive.google.com/file/d/1R1BgK_ZCBbI_OnjzXckPFmTzPXADHNBf/view?usp=sharing"
+                        >
                           <p className="btn" style={{ marginTop: "-8px" }}>
                             {" "}
                             Download Resume

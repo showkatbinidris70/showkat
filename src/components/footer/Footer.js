@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaStarOfLife,
-  FaXTwitter,
-  FaInstagram,
-  FaArrowRight,
-} from "react-icons/fa6";
-import { FaFacebookF, FaLinkedinIn, FaMobileAlt } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -44,29 +38,31 @@ export default function Footer() {
                 <h4>Follow Me</h4>
                 <div className="d-flex gap-3 py-2">
                   <Link
-                    to="/contact"
+                    to="/https://www.facebook.com/salibinidris/"
+                    target="_blank"
                     className="social-icons d-flex justify-content-center align-items-center"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
                   >
                     <FaFacebookF />
                   </Link>
                   <Link
-                    to="/contact"
+                    to="//https://www.linkedin.com/in/showkatbinidris/"
+                    target="_blank"
                     className="social-icons d-flex justify-content-center align-items-center"
-                  >
-                    <FaXTwitter />
-                  </Link>
-                  <Link
-                    to="/contact"
-                    className="social-icons d-flex justify-content-center align-items-center"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
                   >
                     <FaLinkedinIn />
                   </Link>
-
                   <Link
-                    to="/contact"
+                    to="https://github.com/showkatbinidris70"
+                    target="_blank"
                     className="social-icons d-flex justify-content-center align-items-center"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
                   >
-                    <FaInstagram />
+                    <FaGithub />
                   </Link>
                 </div>
               </div>
