@@ -104,8 +104,8 @@ export default function Layout() {
         </div>
       </header>
 
-      <div className="c-socials">
-        <ul className="c-socials__list">
+      <div className="c-socials d-none">
+        <ul className="c-socials__list pb-5">
           <li className="c-socials__list-item">
             <Link
               to="https://www.facebook.com/salibinidris/"

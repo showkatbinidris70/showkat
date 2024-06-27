@@ -8,7 +8,6 @@ import {
 import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
-//importing typewriter-effect
 import Typewriter from "typewriter-effect";
 
 export default function Hero() {
@@ -17,8 +16,6 @@ export default function Hero() {
       once: "true",
     });
   }, []);
-
-
 
   return (
     <div>
@@ -50,7 +47,7 @@ export default function Hero() {
                   />
                 </h1>
                 <p className="desc">
-                  Transforming concepts into tangible digital solutions, <span className="fw-bold fs-6 pe-1">Showkat Ali</span> 
+                  Transforming concepts into tangible digital solutions, <span className="fw-bold fs-6 pe-1">Showkat Ali</span>
                   excels in crafting innovative web solutions that bring ideas
                   to life effectively and efficiently.
                 </p>
@@ -70,40 +67,38 @@ export default function Hero() {
                     </Link>
                   </div>
                 </div>
-                <div style={{ marginTop: "8rem" }}>
-                  <p>Used by top-tech companies</p>
-                  <div className="d-flex gap-3 py-2">
-                    <Link
-                      to="https://www.facebook.com/salibinidris/"
-                      target="_blank"
-                      className="social-icons d-flex justify-content-center align-items-center"
-                      data-aos="zoom-in"
-                      data-aos-duration="2000"
-                    >
-                      <FaFacebookF />
-                    </Link>
-                    <Link
-                      to="https://www.linkedin.com/in/showkatbinidris/"
-                      target="_blank"
-                      className="social-icons d-flex justify-content-center align-items-center"
-                      data-aos="zoom-in"
-                      data-aos-duration="2000"
-                    >
-                      <FaLinkedinIn />
-                    </Link>
-                    <Link
-                      to="https://github.com/showkatbinidris70"
-                      target="_blank"
-                      className="social-icons d-flex justify-content-center align-items-center"
-                      data-aos="zoom-in"
-                      data-aos-duration="2000"
-                    >
-                      <FaGithub />
-                    </Link>
-                  </div>
+                <div className="d-flex gap-3 py-2">
+                  <Link
+                    to="https://www.facebook.com/salibinidris/"
+                    target="_blank"
+                    className="social-icons d-flex justify-content-center align-items-center"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                  >
+                    <FaFacebookF />
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/in/showkatbinidris/"
+                    target="_blank"
+                    className="social-icons d-flex justify-content-center align-items-center"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                  >
+                    <FaLinkedinIn />
+                  </Link>
+                  <Link
+                    to="https://github.com/showkatbinidris70"
+                    target="_blank"
+                    className="social-icons d-flex justify-content-center align-items-center"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                  >
+                    <FaGithub />
+                  </Link>
                 </div>
               </div>
             </div>
+
             <div
               className="col-sm-12 col-md-12 col-lg-6 col-xl-5 order-lg-1 d-flex align-items-end"
               style={{ height: "100vh" }}
