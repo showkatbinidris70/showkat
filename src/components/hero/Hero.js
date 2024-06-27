@@ -50,7 +50,7 @@ export default function Hero() {
                   />
                 </h1>
                 <p className="desc">
-                  Transforming concepts into tangible digital solutions, Magoz
+                  Transforming concepts into tangible digital solutions, <span className="fw-bold fs-6 pe-1">Showkat Ali</span> 
                   excels in crafting innovative web solutions that bring ideas
                   to life effectively and efficiently.
                 </p>
