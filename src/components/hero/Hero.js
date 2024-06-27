@@ -67,34 +67,37 @@ export default function Hero() {
                     </Link>
                   </div>
                 </div>
-                <div className="d-flex gap-3 py-2">
-                  <Link
-                    to="https://www.facebook.com/salibinidris/"
-                    target="_blank"
-                    className="social-icons d-flex justify-content-center align-items-center"
-                    data-aos="zoom-in"
-                    data-aos-duration="2000"
-                  >
-                    <FaFacebookF />
-                  </Link>
-                  <Link
-                    to="https://www.linkedin.com/in/showkatbinidris/"
-                    target="_blank"
-                    className="social-icons d-flex justify-content-center align-items-center"
-                    data-aos="zoom-in"
-                    data-aos-duration="2000"
-                  >
-                    <FaLinkedinIn />
-                  </Link>
-                  <Link
-                    to="https://github.com/showkatbinidris70"
-                    target="_blank"
-                    className="social-icons d-flex justify-content-center align-items-center"
-                    data-aos="zoom-in"
-                    data-aos-duration="2000"
-                  >
-                    <FaGithub />
-                  </Link>
+                <div className="py-3">
+                  <p>Used by top-tech companies</p>
+                  <div className="d-flex gap-3 py-3">
+                    <Link
+                      to="https://www.facebook.com/salibinidris/"
+                      target="_blank"
+                      className="social-icons d-flex justify-content-center align-items-center"
+                      data-aos="zoom-in"
+                      data-aos-duration="2000"
+                    >
+                      <FaFacebookF />
+                    </Link>
+                    <Link
+                      to="https://www.linkedin.com/in/showkatbinidris/"
+                      target="_blank"
+                      className="social-icons d-flex justify-content-center align-items-center"
+                      data-aos="zoom-in"
+                      data-aos-duration="2000"
+                    >
+                      <FaLinkedinIn />
+                    </Link>
+                    <Link
+                      to="https://github.com/showkatbinidris70"
+                      target="_blank"
+                      className="social-icons d-flex justify-content-center align-items-center"
+                      data-aos="zoom-in"
+                      data-aos-duration="2000"
+                    >
+                      <FaGithub />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
