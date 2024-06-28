@@ -28,7 +28,7 @@ export default function ProjectsComponents() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-6 col-lg-4">
-              <div className="sticky-top" style={{ paddingTop: "10rem" }}>
+              <div className="sticky-top">
                 <h2>
                   My <br />
                   <Typewriter
@@ -56,7 +56,7 @@ export default function ProjectsComponents() {
                     data-aos="fade-up"
                     data-aos-duration="2000"
                   >
-                    <img src={Project_image} className="img-fluid pt-3 px-3" />
+                    <img src={Project_image} className="img-fluid pt-3 px-3" alt="project image" />
                     <div className="position-absolute bottom-0 w-100">
                       <div className="button-bg-color">
                         <h5 className="ps-3 pt-3">Webflow Project</h5>
@@ -87,7 +87,7 @@ export default function ProjectsComponents() {
                   >
                     <img
                       src={webflow_Project_image_02}
-                      className="img-fluid pt-3 px-3"
+                      className="img-fluid pt-3 px-3" alt="project image"
                     />
                     <div className="position-absolute bottom-0 w-100">
                       <div className="button-bg-color">
@@ -119,7 +119,7 @@ export default function ProjectsComponents() {
                   >
                     <img
                       src={landing_page_01}
-                      className="img-fluid pt-3 px-3"
+                      className="img-fluid pt-3 px-3" alt="project image"
                     />
                     <div className="position-absolute bottom-0 w-100">
                       <div className="button-bg-color">
@@ -151,7 +151,7 @@ export default function ProjectsComponents() {
                   >
                     <img
                       src={Noipunno_app_design}
-                      className="img-fluid pt-3 px-3"
+                      className="img-fluid pt-3 px-3" alt="project image"
                     />
                     <div className="position-absolute bottom-0 w-100">
                       <div className="button-bg-color">
@@ -183,7 +183,7 @@ export default function ProjectsComponents() {
                   >
                     <img
                       src={ecommerce_template}
-                      className="img-fluid pt-3 px-3"
+                      className="img-fluid pt-3 px-3" alt="project image"
                     />
                     <div className="position-absolute bottom-0 w-100">
                       <div className="button-bg-color">
@@ -216,7 +216,7 @@ export default function ProjectsComponents() {
                     data-aos="fade-up"
                     data-aos-duration="2000"
                   >
-                    <img src={template} className="img-fluid pt-3 px-3" />
+                    <img src={template} className="img-fluid pt-3 px-3" alt="project image" />
                     <div className="position-absolute bottom-0 w-100">
                       <div className="button-bg-color">
                         <h5 className="ps-3 pt-3">Tempalte Design</h5>

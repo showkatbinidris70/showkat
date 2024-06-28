@@ -21,16 +21,16 @@ export default function Footer() {
               <div className="col-12 col-sm-6 col-md-6 col-lg-4 py-3 py-md-0">
                 <h4>Information</h4>
                 <ul className="address1">
-                  <li>
+                  <li className="d-flex align-items-center">
                     <i className="fa fa-envelope pe-2 text-secondary" />
-                    <a href="mailto:#">showkatbinidris70@gmail.com</a>
+                    <p className="text-dark">showkatbinidris70@gmail.com</p>
                   </li>
-                  <li>
+                  <li className="d-flex align-items-center">
                     <i
                       className="fa fa-mobile pe-2 text-secondary"
                       aria-hidden="true"
                     />
-                    <a href="tel:12 34 56 78 90">+8801921839596</a>
+                    <p className="text-dark">+8801921839596</p>
                   </li>
                 </ul>
               </div>

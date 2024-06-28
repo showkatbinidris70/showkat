@@ -12,26 +12,7 @@ export default function Projects() {
   }, []);
   return (
     <div>
-      <section class="breadcrumb w-100">
-        <div class="container">
-          <div class="row">
-            <h2 class="title">My Projects </h2>
-            <div class="pt-3 d-none">
-              <h4 class="btn py-3 px-5">
-                <a class="" href="/">
-                  Home
-                </a>{" "}
-                <span>
-                  <i class="fa-solid fa-angles-right pe-1"></i>
-                  My Projects
-                </span>
-              </h4>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="projects" style={{ marginTop: "5rem" }}>
+      <section className="projects">
         <ProjectsComponents />
       </section>
       <section data-aos="fade-up" data-aos-duration="2000">

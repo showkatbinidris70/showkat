@@ -9,12 +9,11 @@ export default function FeaturesComponent() {
                 data-aos="fade-up"
                 data-aos-duration="2000"
                 className="features"
-                style={{ padding: "5rem 0rem" }}
             >
                 <div className="container">
-                    <h2>What I do</h2>
+                    <h2 className='pt-5'>What I do</h2>
                     <div className="row">
-                        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4 my-4">
+                        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
                             <div
                                 className="common-card"
                                 data-aos="fade-right"
@@ -42,7 +41,7 @@ export default function FeaturesComponent() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4 my-4">
+                        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
                             <div className="common-card">
                                 <div className="card border-0 card-shadow p-3">
                                     <MdOutlineWebhook className="fs-1 m-3" />
@@ -66,7 +65,7 @@ export default function FeaturesComponent() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4 my-4">
+                        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
                             <div
                                 className="common-card"
                                 data-aos="fade-left"

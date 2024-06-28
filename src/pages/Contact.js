@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <div>
       <>
-        <section className="common-card" style={{ paddingTop: "5rem" }}>
+        <section className="common-card py-5">
           <div className="container">
             <div className="d-flex justify-content-center text-center py-5">
               <div className="col-sm-12 col-md-12 col-lg-10 col-xl-6">
@@ -129,10 +129,9 @@ export default function Contact() {
                           </label>
                           <div className="form-floating">
                             <textarea
-                              className="form-control bg-transparent"
+                              className="form-control bg-transparent h-100"
                               placeholder="Leave a comment here"
                               id="message"
-                              style={{ height: 100 }}
                               defaultValue={""}
                               name="message"
                             />
@@ -170,8 +169,6 @@ export default function Contact() {
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.83187882077!2d90.33728802520291!3d23.78097572833174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1717089016735!5m2!1sen!2sbd"
                       width="100%"
                       height={450}
-                      frameBorder={0}
-                      style={{ border: 0 }}
                       allowFullScreen=""
                       aria-hidden="false"
                       tabIndex={0}

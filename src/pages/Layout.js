@@ -26,7 +26,7 @@ export default function Layout() {
   const closeNav = () => setIsNavCollapsed(true);
   return (
     <>
-      <header className="header sticky-top" style={{ zIndex: "9999" }}>
+      <header className="header sticky-top">
         <div className={`nav ${affix ? "affix" : ""}`}>
           <div className="container">
             <div className="row">
@@ -52,7 +52,7 @@ export default function Layout() {
                       } navbar-collapse`}
                     id="navbarNav"
                   >
-                    <ul className="navbar-nav ms-md-auto gap-2">
+                    <ul className="navbar-nav ms-md-auto gap-2 d-flex align-items-start align-items-lg-center">
                       <li className="nav-item rounded">
                         <Link
                           className="nav-link"
@@ -89,7 +89,7 @@ export default function Layout() {
                           target="_blank"
                           to="https://drive.google.com/file/d/1R1BgK_ZCBbI_OnjzXckPFmTzPXADHNBf/view?usp=sharing"
                         >
-                          <p className="btn" style={{ marginTop: "-8px" }}>
+                          <p className="btn">
                             {" "}
                             Download Resume
                           </p>
@@ -103,45 +103,6 @@ export default function Layout() {
           </div>
         </div>
       </header>
-
-      <div className="c-socials d-none">
-        <ul className="c-socials__list pb-5">
-          <li className="c-socials__list-item">
-            <Link
-              to="https://www.facebook.com/salibinidris/"
-              target="_blank"
-              className="social-icons d-flex justify-content-center align-items-center"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-            >
-              <FaFacebookF />
-            </Link>
-          </li>
-          <li className="c-socials__list-item">
-            <Link
-              to="https://www.linkedin.com/in/showkatbinidris/"
-              target="_blank"
-              className="social-icons d-flex justify-content-center align-items-center"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-            >
-              <FaLinkedinIn />
-            </Link>
-          </li>
-          <li className="c-socials__list-item">
-            <Link
-              to="https://github.com/showkatbinidris70"
-              target="_blank"
-              className="social-icons d-flex justify-content-center align-items-center"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-            >
-              <FaGithub />
-            </Link>
-          </li>
-        </ul>
-      </div>
-
       <Outlet />
     </>
   );

@@ -114,10 +114,10 @@ export default function Home() {
               <span className="title">Testimonial</span>
               <h3>What Our core client say ?</h3>
             </div>
-            <div className="row" style={{ marginTop: "10rem" }}>
+            <div className="row">
               <div className="col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-9">
                 <div
-                  className="swiper"
+                  className="swiper pt-5"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -143,16 +143,14 @@ export default function Home() {
                                   <img
                                     src={slider_image_two}
                                     className="img-fluid"
+                                    alt="news letter image"
                                   />
                                 </div>
                               </div>
                               <div className=" col-ms-6 col-md-6 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL
-                                    style={{
-                                      color: "#76a9f8",
-                                      fontSize: "4rem",
-                                    }}
+                                    className="double-quote"
                                   />
                                 </h2>
                                 <p className="description pt-3">
@@ -181,16 +179,14 @@ export default function Home() {
                                   <img
                                     src={slider_image_two}
                                     className="img-fluid"
+                                    alt="news letter image"
                                   />
                                 </div>
                               </div>
                               <div className=" col-ms-6 col-md-6 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL
-                                    style={{
-                                      color: "#76a9f8",
-                                      fontSize: "4rem",
-                                    }}
+                                    className="double-quote"
                                   />
                                 </h2>
                                 <p className="description pt-3">
@@ -219,16 +215,14 @@ export default function Home() {
                                   <img
                                     src={slider_image_two}
                                     className="img-fluid"
+                                    alt="news letter image"
                                   />
                                 </div>
                               </div>
                               <div className=" col-ms-6 col-md-6 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL
-                                    style={{
-                                      color: "#76a9f8",
-                                      fontSize: "4rem",
-                                    }}
+                                    className="double-quote"
                                   />
                                 </h2>
                                 <p className="description pt-3">
@@ -257,16 +251,14 @@ export default function Home() {
                                   <img
                                     src={slider_image_two}
                                     className="img-fluid"
+                                    alt="news letter image"
                                   />
                                 </div>
                               </div>
                               <div className=" col-ms-6 col-md-6 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL
-                                    style={{
-                                      color: "#76a9f8",
-                                      fontSize: "4rem",
-                                    }}
+                                    className="double-quote"
                                   />
                                 </h2>
                                 <p className="description pt-3">
@@ -297,7 +289,7 @@ export default function Home() {
             <figure className="image">
               <img
                 src="http://t.commonsupport.com/adro/images/resource/user-thumbs.png"
-                alt=""
+                alt="news letter image"
               />
             </figure>
           </div>
@@ -315,26 +307,21 @@ export default function Home() {
               <div className="row my-5">
                 <div className="card border-0 card-shadow py-5 px-2 px-lg-5 text-center position-relative">
                   <div
-                    className="position-absolute top-0 end-0 d-none d-md-block"
+                    className="position-absolute top-0 end-0 d-none d-md-block "
                     data-aos="flip-right"
                     data-aos-duration="2000"
-                    style={{
-                      width: 80,
-                      height: 80,
-                      marginRight: "-30px",
-                      marginTop: "-30px",
-                    }}
                   >
-                    <img src={News_letter_img_three} className="img-fluid" />
+                    <img src={News_letter_img_three} className="img-fluid sun-light-sticker" alt="news letter image" />
                   </div>
                   <div className="row">
                     <div className="col-sm-12 col-md-6 col-xl-6">
                       <img
                         src={News_letter_img_one}
                         className="img-fluid rounded"
-                        alt="Here is an image"
+                        alt="news letter image"
                         data-aos="flip-right"
                         data-aos-duration="2000"
+
                       />
                     </div>
                     <div className="col-sm-12 col-md-6 col-xl-6">
@@ -348,7 +335,7 @@ export default function Home() {
                             <img
                               src={News_letter_img_two}
                               className="img-fluid w-25"
-                              alt="Here is an image"
+                              alt="news letter image"
                             />
                             <span className="d-block mt-3 desc">
                               Subscribe to our newsletter in order not to miss
