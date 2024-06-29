@@ -1,18 +1,39 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaWhatsapp, FaSkype } from "react-icons/fa";
-
+import emailjs from '@emailjs/browser';
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 export default function Contact() {
+
+  const form = useRef();
+
   useEffect(() => {
     AOS.init({
       once: "true",
     });
   }, []);
+
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('portfolio-template', 'template_0jpta2h', form.current, {
+        publicKey: 'vbub8giJo34N4q1wv',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          alert("Successfully Submited")
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
 
   return (
     <div>
@@ -80,7 +101,7 @@ export default function Contact() {
                       </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-8">
-                      <form>
+                      <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-3">
                           <label htmlFor="name" className="form-label">
                             Name
@@ -91,7 +112,7 @@ export default function Contact() {
                             id="name"
                             placeholder="Enter your name"
                             aria-describedby="name"
-                            name="name"
+                            name="to_name"
                           />
                         </div>
                         <div className="mb-3">
@@ -132,7 +153,6 @@ export default function Contact() {
                               className="form-control bg-transparent h-100"
                               placeholder="Leave a comment here"
                               id="message"
-                              defaultValue={""}
                               name="message"
                             />
                             <label htmlFor="floatingTextarea2">
