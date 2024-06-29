@@ -43,7 +43,6 @@ body {
 /* nav section start */
 .nav {
   width: 100%;
-  position: fixed;
 }
 
 .home {
