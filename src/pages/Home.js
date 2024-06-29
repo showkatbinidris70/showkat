@@ -106,7 +106,7 @@ export default function Home() {
       <section
         data-aos="fade-up"
         data-aos-duration="2000"
-        className="testimonial-section"
+        className="testimonial-section pt-5"
       >
         <div className="large-container">
           <div className="container">
@@ -304,7 +304,7 @@ export default function Home() {
         <div className="container">
           <div className="common-card py-5">
             <div className="container">
-              <div className="row my-5">
+              <div className="row">
                 <div className="card border-0 card-shadow py-5 px-2 px-lg-5 text-center position-relative">
                   <div
                     className="position-absolute top-0 end-0 d-none d-md-block "

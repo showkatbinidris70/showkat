@@ -16,9 +16,9 @@ export default function About() {
 
   return (
     <div className="about-section">
-      <section className="container">
+      <section className="container pt-5">
         <div className="row">
-          <div className="text-center mt-5">
+          <div className="text-center py-5">
             <div className="mx-auto developer-image">
               <img src={developer_image} class="rounded-circle img-fluid img-sm-50 img-md-75 img-lg-100" alt="Developer's image" />
             </div>
@@ -36,7 +36,7 @@ export default function About() {
             </h4>
           </div>
         </div>
-        <div className="row mt-5" data-aos="fade-up"
+        <div className="row" data-aos="fade-up"
           data-aos-duration="2000">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-7">
             <h5 className="py-2">

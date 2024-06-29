@@ -11,8 +11,8 @@ export default function Projects() {
     });
   }, []);
   return (
-    <div>
-      <section className="projects">
+    <div className="pt-5">
+      <section className="projects pt-5">
         <ProjectsComponents />
       </section>
       <section data-aos="fade-up" data-aos-duration="2000">

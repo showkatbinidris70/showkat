@@ -125,12 +125,12 @@ export default function ProjectsComponents() {
                         </div>
                       </div>
                     );
-                  })};
+                  })}
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
-  );
+  )
 }

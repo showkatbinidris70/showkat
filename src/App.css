@@ -200,8 +200,8 @@ body {
 /* features end */
 /* projects start */
 .projects {
-  margin-bottom: 5rem;
-  padding-top: 5rem;
+  /* margin-bottom: 0rem;
+  padding-top: 4rem; */
 }
 
 .projects .window {
