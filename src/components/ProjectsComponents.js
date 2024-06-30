@@ -85,7 +85,7 @@ export default function ProjectsComponents() {
                   const { title, preViewBtn, gitHubBtn, url } = projectsData;
                   return (
                     <div
-                      className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0"
+                      className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0 my-3"
                       key={index}
                     >
                       <div
