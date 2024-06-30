@@ -99,7 +99,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 order-lg-1 d-flex align-items-end hero-100vh">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 order-lg-1 d-flex align-items-center align-items-lg-end hero-100vh">
               <div
                 className="d-flex align-items-end w-100 justify-content-center"
                 data-aos="fade-left"
