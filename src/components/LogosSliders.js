@@ -16,32 +16,64 @@ export default function LogosSliders() {
         <div className="row">
           <div className="logos-slider">
             <div className="logos-slider-container">
-              <img src={webflowLogo} />
-              <img src={cssLogo} />
-              <img src={figmaLogo} />
-              <img src={JavaScriptLogo} />
-              <img src={reactjsLogo} />
-              <img src={cssLogo} />
-              <img src={wordpressLogo} />
-              <img src={webflowLogo} />
-              <img src={htmlLogo} />
-              <img src={postmanLogo} />
-              <img src={tailwindLogo} />
-              <img src={webflowLogo} />
+              <img src={webflowLogo} className="img-fluid" alt="webflow logo" />
+              <img src={cssLogo} className="img-fluid" alt="css logo" />
+              <img src={figmaLogo} className="img-fluid" alt="figma logo" />
+              <img
+                src={JavaScriptLogo}
+                className="img-fluid"
+                alt="javascript logo"
+              />
+              <img
+                src={reactjsLogo}
+                className="img-fluid"
+                alt="react js logo"
+              />
+              <img src={cssLogo} className="img-fluid" alt="css logo" />
+              <img
+                src={wordpressLogo}
+                className="img-fluid"
+                alt="wordpress logo"
+              />
+              <img src={webflowLogo} className="img-fluid" alt="webflow logo" />
+              <img src={htmlLogo} className="img-fluid" alt="html logo" />
+              <img src={postmanLogo} className="img-fluid" alt="postman logo" />
+              <img
+                src={tailwindLogo}
+                className="img-fluid"
+                alt="tailwind logo"
+              />
+              <img src={webflowLogo} className="img-fluid" alt="webflow logo" />
             </div>
             <div className="logos-slider-container ps-5 ms-5">
-              <img src={htmlLogo} />
-              <img src={figmaLogo} />
-              <img src={JavaScriptLogo} />
-              <img src={cssLogo} />
-              <img src={reactjsLogo} />
-              <img src={wordpressLogo} />
-              <img src={cssLogo} />
-              <img src={webflowLogo} />
-              <img src={postmanLogo} />
-              <img src={tailwindLogo} />
-              <img src={htmlLogo} />
-              <img src={webflowLogo} />
+              <img src={htmlLogo} className="img-fluid" alt="html logo" />
+              <img src={figmaLogo} className="img-fluid" alt="figma logo" />
+              <img
+                src={JavaScriptLogo}
+                className="img-fluid"
+                alt="javascript logo"
+              />
+              <img src={cssLogo} className="img-fluid" alt="css logo" />
+              <img
+                src={reactjsLogo}
+                className="img-fluid"
+                alt="react js logo"
+              />
+              <img
+                src={wordpressLogo}
+                className="img-fluid"
+                alt="wordpress logo"
+              />
+              <img src={cssLogo} className="img-fluid" alt="css logo" />
+              <img src={webflowLogo} className="img-fluid" alt="webflow logo" />
+              <img src={postmanLogo} className="img-fluid" alt="postman logo" />
+              <img
+                src={tailwindLogo}
+                className="img-fluid"
+                alt="tailwind logo"
+              />
+              <img src={htmlLogo} className="img-fluid" alt="html logo" />
+              <img src={webflowLogo} className="img-fluid" alt="webflow logo" />
             </div>
           </div>
         </div>
