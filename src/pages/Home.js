@@ -18,6 +18,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Projects from "../components/ProjectsComponents";
 import FeaturesComponent from "../components/FeaturesComponent";
+import LogosSliders from "../components/LogosSliders";
 
 export default function Home() {
   useEffect(() => {
@@ -31,9 +32,12 @@ export default function Home() {
       <Hero />
 
       <FeaturesComponent />
-
-      <Projects />
-
+      <div className="my-5">
+        <Projects />
+      </div>
+      <div className="py-5">
+        <LogosSliders />
+      </div>
       <section
         data-aos="fade-up"
         data-aos-duration="2000"
@@ -80,9 +84,7 @@ export default function Home() {
                               </div>
                               <div className=" col-ms-6 col-md-6 col-lg-7">
                                 <h2 className="quote">
-                                  <RiDoubleQuotesL
-                                    className="double-quote"
-                                  />
+                                  <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
                                   Their design process is really unique. They
@@ -116,9 +118,7 @@ export default function Home() {
                               </div>
                               <div className=" col-ms-6 col-md-6 col-lg-7">
                                 <h2 className="quote">
-                                  <RiDoubleQuotesL
-                                    className="double-quote"
-                                  />
+                                  <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
                                   Their design process is really unique. They
@@ -152,9 +152,7 @@ export default function Home() {
                               </div>
                               <div className=" col-ms-6 col-md-6 col-lg-7">
                                 <h2 className="quote">
-                                  <RiDoubleQuotesL
-                                    className="double-quote"
-                                  />
+                                  <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
                                   Their design process is really unique. They
@@ -188,9 +186,7 @@ export default function Home() {
                               </div>
                               <div className=" col-ms-6 col-md-6 col-lg-7">
                                 <h2 className="quote">
-                                  <RiDoubleQuotesL
-                                    className="double-quote"
-                                  />
+                                  <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
                                   Their design process is really unique. They
@@ -242,7 +238,11 @@ export default function Home() {
                     data-aos="flip-right"
                     data-aos-duration="2000"
                   >
-                    <img src={News_letter_img_three} className="img-fluid sun-light-sticker" alt="news letter image" />
+                    <img
+                      src={News_letter_img_three}
+                      className="img-fluid sun-light-sticker"
+                      alt="news letter image"
+                    />
                   </div>
                   <div className="row">
                     <div className="col-sm-12 col-md-6 col-xl-6">
@@ -252,7 +252,6 @@ export default function Home() {
                         alt="news letter image"
                         data-aos="flip-right"
                         data-aos-duration="2000"
-
                       />
                     </div>
                     <div className="col-sm-12 col-md-6 col-xl-6">

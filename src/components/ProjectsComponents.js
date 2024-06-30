@@ -1,17 +1,9 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import Project_image from "../assets/images/project-image.png";
-import webflow_Project_image_02 from "../assets/images/webflow-2.png";
-import landing_page_01 from "../assets/images/landing-page-01.png";
-import Noipunno_app_design from "../assets/images/noipunno.png";
-import ecommerce_template from "../assets/images/e-commerce.png";
-import template from "../assets/images/template.png";
 import { FaArrowRight } from "react-icons/fa6";
-import img from '../assets/images/Untitled_design__1_-removebg-preview.png'
 // swiper slider
 import "swiper/css";
 import "swiper/css/pagination";
-
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,42 +18,42 @@ export default function ProjectsComponents() {
   }, []);
   const ProjectsData = [
     {
-      "title": "Webflow Template",
-      "url": "/images/project-image.png",
-      "preViewBtn": "Live View",
-      "gitHubBtn": "Github"
+      title: "Webflow Template",
+      url: "/images/project-image.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
     },
     {
-      "title": "Webflow Template",
-      "url": "/images/webflow-2.png",
-      "preViewBtn": "Live View",
-      "gitHubBtn": "Github"
+      title: "Webflow Template",
+      url: "/images/webflow-2.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
     },
     {
-      "title": "Landing Page",
-      "url": "/images/landing-page-01.png",
-      "preViewBtn": "Live View",
-      "gitHubBtn": "Github"
+      title: "Landing Page",
+      url: "/images/landing-page-01.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
     },
     {
-      "title": "Noipunno App Design",
-      "url": "/images/noipunno.png",
-      "preViewBtn": "Live View",
-      "gitHubBtn": "Github"
+      title: "Noipunno App Design",
+      url: "/images/noipunno.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
     },
     {
-      "title": "E-commerce Template",
-      "url": "/images/e-commerce.png",
-      "preViewBtn": "Live View",
-      "gitHubBtn": "Github"
+      title: "E-commerce Template",
+      url: "/images/e-commerce.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
     },
     {
-      "title": "Tempalte Design",
-      "url": "/images/template.png",
-      "preViewBtn": "Live View",
-      "gitHubBtn": "Github"
-    }
-  ]
+      title: "Tempalte Design",
+      url: "/images/template.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
+    },
+  ];
   return (
     <div>
       <section data-aos="fade-up" data-aos-duration="2000" className="projects">
@@ -73,12 +65,11 @@ export default function ProjectsComponents() {
                   My <br />
                   <Typewriter
                     options={{
-                      strings: ['Projects', 'Works'],
+                      strings: ["Projects", "Works"],
                       autoStart: true,
                       loop: true,
                     }}
                   />
-
                 </h2>
                 <p className="py-3">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -90,47 +81,53 @@ export default function ProjectsComponents() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-8">
               <div className="row">
-                {
-                  ProjectsData.map((projectsData, index) => {
-                    const { title, preViewBtn, gitHubBtn, url } = projectsData;
-                    return (
-                      <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0" key={index}>
-                        <div
-                          className="window position-relative"
-                          data-aos="fade-up"
-                          data-aos-duration="2000"
-                        >
-                          <img src={url} className="img-fluid pt-3 px-3" alt="project image" />
+                {ProjectsData.map((projectsData, index) => {
+                  const { title, preViewBtn, gitHubBtn, url } = projectsData;
+                  return (
+                    <div
+                      className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0"
+                      key={index}
+                    >
+                      <div
+                        className="window position-relative"
+                        data-aos="fade-up"
+                        data-aos-duration="2000"
+                      >
+                        <img
+                          src={url}
+                          className="img-fluid pt-3 px-3"
+                          alt="project image"
+                        />
 
-                          <div className="position-absolute bottom-0 w-100">
-                            <div className="button-bg-color">
-                              <h5 className="ps-3 pt-3">{title}</h5>
-                              <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
-                                <div className="cta-btn">
-                                  <Link
-                                    to="https://restaurant-979076.webflow.io/"
-                                    className="btn px-2"
-                                  >
-                                    {preViewBtn} <FaArrowRight />
-                                  </Link>
-                                </div>
-                                <div className="cta-btn">
-                                  <a className="btn px-3">
-                                    {gitHubBtn} <FaArrowRight />
-                                  </a>
-                                </div>
+                        <div className="position-absolute bottom-0 w-100">
+                          <div className="button-bg-color">
+                            <h5 className="ps-3 pt-3">{title}</h5>
+                            <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
+                              <div className="cta-btn">
+                                <Link
+                                  to="https://restaurant-979076.webflow.io/"
+                                  className="btn px-2"
+                                >
+                                  {preViewBtn} <FaArrowRight />
+                                </Link>
+                              </div>
+                              <div className="cta-btn">
+                                <a className="btn px-3">
+                                  {gitHubBtn} <FaArrowRight />
+                                </a>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    );
-                  })}
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
-  )
+  );
 }

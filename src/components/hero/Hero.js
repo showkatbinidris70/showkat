@@ -1,10 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import hero_image from "../../assets/images/hero-image.png";
-import {
-  FaStarOfLife,
-  FaArrowRight,
-} from "react-icons/fa6";
+import hero_image from "../../assets/images/developer-image.png";
+import { FaArrowRight } from "react-icons/fa6";
 import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -22,9 +19,7 @@ export default function Hero() {
       <section className="home-hero">
         <div className="container">
           <div className="row">
-            <div
-              className="col-sm-12 col-md-12 col-lg-6 col-xl-7 order-1 d-flex align-items-center hero-100vh"
-            >
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-7 order-1 d-flex align-items-center hero-100vh">
               <div>
                 <h1
                   className="my-4 pt-3"
@@ -34,14 +29,15 @@ export default function Hero() {
                   I am a <br />
                   <Typewriter
                     options={{
-                      strings: ['Frontend Developer', 'Webflow Developer'],
+                      strings: ["Frontend Developer", "Webflow Developer"],
                       autoStart: true,
                       loop: true,
                     }}
                   />
                 </h1>
                 <p className="desc">
-                  Transforming concepts into tangible digital solutions, <span className="fw-bold fs-6 pe-1">Showkat Ali</span>
+                  Transforming concepts into tangible digital solutions,{" "}
+                  <span className="fw-bold fs-6 pe-1">Showkat Ali</span>
                   excels in crafting innovative web solutions that bring ideas
                   to life effectively and efficiently.
                 </p>
@@ -51,12 +47,19 @@ export default function Hero() {
                   data-aos-duration="2000"
                 >
                   <div className="cta-btn">
-                    <Link to="/contact" className="btn py-3 mt-4 px-1 px-sm-2 px-md-4 d-flex gap-1">
-                      Book a free call <FaArrowRight className="d-none d-sm-block" />
+                    <Link
+                      to="/contact"
+                      className="btn py-3 mt-4 px-1 px-sm-2 px-md-4 d-flex gap-1"
+                    >
+                      Book a free call{" "}
+                      <FaArrowRight className="d-none d-sm-block" />
                     </Link>
                   </div>
                   <div className="cta-btn">
-                    <Link to="/projects" className="btn py-3 mt-4 px-3 px-sm-2 px-md-5 d-flex gap-1">
+                    <Link
+                      to="/projects"
+                      className="btn py-3 mt-4 px-3 px-sm-2 px-md-5 d-flex gap-1"
+                    >
                       View Work <FaArrowRight className="d-none d-sm-block" />
                     </Link>
                   </div>
@@ -96,15 +99,17 @@ export default function Hero() {
               </div>
             </div>
 
-            <div
-              className="col-sm-12 col-md-12 col-lg-6 col-xl-5 order-lg-1 d-flex align-items-end hero-100vh"
-            >
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 order-lg-1 d-flex align-items-end hero-100vh">
               <div
                 className="d-flex align-items-end w-100 justify-content-center"
                 data-aos="fade-left"
                 data-aos-duration="1000"
               >
-                <img src={hero_image} className="img-fluid  bottom-0 text-center" alt="Hero image" />
+                <img
+                  src={hero_image}
+                  className="img-fluid  bottom-0 text-center"
+                  alt="Hero image"
+                />
               </div>
             </div>
           </div>

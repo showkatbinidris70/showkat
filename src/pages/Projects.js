@@ -15,7 +15,7 @@ export default function Projects() {
       <section className="projects pt-5">
         <ProjectsComponents />
       </section>
-      <section data-aos="fade-up" data-aos-duration="2000">
+      <section data-aos="fade-up" data-aos-duration="2000" className="py-5">
         <CommonCardComponent />
       </section>
     </div>

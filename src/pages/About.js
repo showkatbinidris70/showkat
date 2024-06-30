@@ -1,6 +1,6 @@
 import { FaStarOfLife, FaArrowRight } from "react-icons/fa6";
 import React, { useEffect, useRef } from "react";
-import developer_image from "../assets/images/Untitled_design__1_-removebg-preview.png";
+import developer_image from "../assets/images/developer-image.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import CommonCardComponent from "../components/CommonCardComponent";
@@ -19,8 +19,12 @@ export default function About() {
       <section className="container pt-5">
         <div className="row">
           <div className="text-center py-5">
-            <div className="mx-auto developer-image">
-              <img src={developer_image} class="rounded-circle img-fluid img-sm-50 img-md-75 img-lg-100" alt="Developer's image" />
+            <div className="mx-auto developer-image py-3">
+              <img
+                src={developer_image}
+                class="img-fluid w-100 h-100 rounded-circle"
+                alt="Developer's image"
+              />
             </div>
             <h1 data-aos="fade-left" data-aos-duration="2000" className="">
               Showkat Ali
@@ -28,7 +32,7 @@ export default function About() {
             <h4 data-aos="fade-right" data-aos-duration="2000" className="">
               <Typewriter
                 options={{
-                  strings: [' Front-end Developer', ' Webflow Developer'],
+                  strings: [" Front-end Developer", " Webflow Developer"],
                   autoStart: true,
                   loop: true,
                 }}
@@ -36,8 +40,7 @@ export default function About() {
             </h4>
           </div>
         </div>
-        <div className="row" data-aos="fade-up"
-          data-aos-duration="2000">
+        <div className="row" data-aos="fade-up" data-aos-duration="2000">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-7">
             <h5 className="py-2">
               <i className="fa fa-suitcase" aria-hidden="true" /> Experience
@@ -134,24 +137,30 @@ export default function About() {
                         aria-hidden="true"
                       />
                       <i
-                        className="fa fa-square p-1 lang-mark" aria-hidden="true"
+                        className="fa fa-square p-1 lang-mark"
+                        aria-hidden="true"
                       />
                       <i
-                        className="fa fa-square p-1 lang-mark" aria-hidden="true"
+                        className="fa fa-square p-1 lang-mark"
+                        aria-hidden="true"
                       />
                       <i
-                        className="fa fa-square p-1 lang-mark" aria-hidden="true"
+                        className="fa fa-square p-1 lang-mark"
+                        aria-hidden="true"
                       />
                     </li>
                     <li>
                       <i
-                        className="fa fa-square p-1 lang-mark" aria-hidden="true"
+                        className="fa fa-square p-1 lang-mark"
+                        aria-hidden="true"
                       />
                       <i
-                        className="fa fa-square p-1 lang-mark" aria-hidden="true"
+                        className="fa fa-square p-1 lang-mark"
+                        aria-hidden="true"
                       />
                       <i
-                        className="fa fa-square p-1 lang-mark" aria-hidden="true"
+                        className="fa fa-square p-1 lang-mark"
+                        aria-hidden="true"
                       />
                       <i
                         className="fa fa-square p-1 text-secondary"
@@ -160,10 +169,12 @@ export default function About() {
                     </li>
                     <li>
                       <i
-                        className="fa fa-square p-1 lang-mark" aria-hidden="true"
+                        className="fa fa-square p-1 lang-mark"
+                        aria-hidden="true"
                       />
                       <i
-                        className="fa fa-square p-1 lang-mark" aria-hidden="true"
+                        className="fa fa-square p-1 lang-mark"
+                        aria-hidden="true"
                       />
                       <i
                         className="fa fa-square p-1 text-secondary"
@@ -184,24 +195,16 @@ export default function About() {
                 <div className="" id="development">
                   <div className="d-flex align-content-start flex-wrap">
                     <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">
-                        HTML
-                      </div>
+                      <div className="btn py-2 px-3 text-nowrap">HTML</div>
                     </div>
                     <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">
-                        CSS3
-                      </div>
+                      <div className="btn py-2 px-3 text-nowrap">CSS3</div>
                     </div>
                     <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">
-                        Tailwind
-                      </div>
+                      <div className="btn py-2 px-3 text-nowrap">Tailwind</div>
                     </div>
                     <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">
-                        Bootstrap
-                      </div>
+                      <div className="btn py-2 px-3 text-nowrap">Bootstrap</div>
                     </div>
                     <div className="cta-btn m-2">
                       <div className="btn py-2 px-3 text-nowrap">
@@ -214,24 +217,16 @@ export default function About() {
                       </div>
                     </div>
                     <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">
-                        React JS
-                      </div>
+                      <div className="btn py-2 px-3 text-nowrap">React JS</div>
                     </div>
                     <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">
-                        Webflow
-                      </div>
+                      <div className="btn py-2 px-3 text-nowrap">Webflow</div>
                     </div>
                     <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">
-                        SASS
-                      </div>
+                      <div className="btn py-2 px-3 text-nowrap">SASS</div>
                     </div>
                     <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">
-                        Wordpress
-                      </div>
+                      <div className="btn py-2 px-3 text-nowrap">Wordpress</div>
                     </div>
                   </div>
                 </div>
@@ -256,7 +251,7 @@ export default function About() {
         </div>
       </section>
 
-      <div className="mt-5" data-aos="fade-up" data-aos-duration="2000">
+      <div className="mt-5 py-5" data-aos="fade-up" data-aos-duration="2000">
         <CommonCardComponent />
       </div>
     </div>
