@@ -51,12 +51,12 @@ export default function Hero() {
                   data-aos-duration="2000"
                 >
                   <div className="cta-btn">
-                    <Link to="/contact" className="btn py-3 mt-4 px-2 px-md-4 d-flex gap-1">
+                    <Link to="/contact" className="btn py-3 mt-4 px-1 px-sm-2 px-md-4 d-flex gap-1">
                       Book a free call <FaArrowRight className="d-none d-sm-block" />
                     </Link>
                   </div>
                   <div className="cta-btn">
-                    <Link to="/projects" className="btn py-3 mt-4 px-4 px-md-5 d-flex gap-1">
+                    <Link to="/projects" className="btn py-3 mt-4 px-3 px-sm-2 px-md-5 d-flex gap-1">
                       View Work <FaArrowRight className="d-none d-sm-block" />
                     </Link>
                   </div>

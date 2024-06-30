@@ -19,10 +19,10 @@ export default function FeaturesComponent() {
                                 data-aos="fade-right"
                                 data-aos-duration="2000"
                             >
-                                <div className="card border-0 card-shadow p-3">
+                                <div className="card border-0 card-shadow p-1 p-md-2 p-lg-3">
                                     <MdOutlineWebhook className="fs-1 m-3" />
                                     <div className="card-body">
-                                        <h5 className="card-title">Custom Website</h5>
+                                        <h6 className="card-title">Custom Website</h6>
                                         <p className="card-text">
                                             Creates tailored websites to reflect your brand and engage
                                             your audience effectively.
@@ -43,10 +43,10 @@ export default function FeaturesComponent() {
                         </div>
                         <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
                             <div className="common-card">
-                                <div className="card border-0 card-shadow p-3">
+                                <div className="card border-0 card-shadow p-1 p-md-2 p-lg-3">
                                     <MdOutlineWebhook className="fs-1 m-3" />
                                     <div className="card-body">
-                                        <h5 className="card-title">Responsive Design</h5>
+                                        <h6 className="card-title">Responsive Design</h6>
                                         <p className="card-text">
                                             Creates tailored websites to reflect your brand and engage
                                             your audience effectively.
@@ -71,10 +71,10 @@ export default function FeaturesComponent() {
                                 data-aos="fade-left"
                                 data-aos-duration="2000"
                             >
-                                <div className="card border-0 card-shadow p-3">
+                                <div className="card border-0 card-shadow p-1 p-md-2 p-lg-3">
                                     <MdOutlineWebhook className="fs-1 m-3" />
                                     <div className="card-body">
-                                        <h5 className="card-title">Webflow Development</h5>
+                                        <h6 className="card-title">Webflow Development</h6>
                                         <p className="card-text">
                                             Creates tailored websites to reflect your brand and engage
                                             your audience effectively.

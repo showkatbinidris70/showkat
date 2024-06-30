@@ -93,7 +93,7 @@ export default function About() {
             </p>
             <p>
               <strong>Govt. Titumir College</strong>
-              <br /> Masters of Social Sciences (MSS) – 2015 - 2016-
+              <br /> Masters of Social Sciences (MSS) – 2015 - 2016
             </p>
             <p>
               <strong>Govt. Titumir College,</strong>

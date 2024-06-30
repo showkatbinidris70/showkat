@@ -48,8 +48,9 @@ export default function Layout() {
                     <span className="navbar-toggler-icon" />
                   </button>
                   <div
-                    className={`${isNavCollapsed ? "collapse" : ""
-                      } navbar-collapse`}
+                    className={`${
+                      isNavCollapsed ? "collapse" : ""
+                    } navbar-collapse`}
                     id="navbarNav"
                   >
                     <ul className="navbar-nav ms-md-auto gap-2 d-flex align-items-start align-items-lg-center">
@@ -85,14 +86,11 @@ export default function Layout() {
                       </li>
                       <li className="nav-item rounded">
                         <Link
-                          className="nav-link text-white rounded px-0 mx-lg-3 cta-btn"
+                          className="text-white rounded px-0 mx-lg-3 cta-btn"
                           target="_blank"
                           to="https://drive.google.com/file/d/1R1BgK_ZCBbI_OnjzXckPFmTzPXADHNBf/view?usp=sharing"
                         >
-                          <p className="btn">
-                            {" "}
-                            Download Resume
-                          </p>
+                          <p className="btn"> Download Resume</p>
                         </Link>
                       </li>
                     </ul>
