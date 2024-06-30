@@ -1,13 +1,10 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useRef } from "react";
 import Hero from "../components/hero/Hero";
 import News_letter_img_one from "../assets/images/pexels-goumbik-653429.jpg";
 import News_letter_img_two from "../assets/images/undefined - Imgur.png";
 import News_letter_img_three from "../assets/images/img-002.png";
 import slider_image_two from "../assets/images/slider image 2.png";
-import { MdOutlineWebhook } from "react-icons/md";
 import { RiDoubleQuotesL } from "react-icons/ri";
-import { FaArrowRight } from "react-icons/fa6";
 // swiper slider
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -19,14 +16,34 @@ import "aos/dist/aos.css";
 import Projects from "../components/ProjectsComponents";
 import FeaturesComponent from "../components/FeaturesComponent";
 import LogosSliders from "../components/LogosSliders";
+import emailjs from "@emailjs/browser";
 
 export default function Home() {
+  const form = useRef();
+
   useEffect(() => {
     AOS.init({
       once: "true",
     });
   }, []);
 
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("portfolio-template", "template_0jpta2h", form.current, {
+        publicKey: "vbub8giJo34N4q1wv",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          alert("Successfully Submited");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
   return (
     <div>
       <Hero />
@@ -275,14 +292,42 @@ export default function Home() {
                           </div>
                           <div className="mx-1 mx-xl-5 my-3">
                             <div className="h-search-form">
-                              <form action="#">
+                              <form
+                                ref={form}
+                                onSubmit={sendEmail}
+                                className="d-none"
+                              >
+                                <div className="mb-3">
+                                  <label
+                                    htmlFor="exampleInputEmail1"
+                                    className="form-label bg-transparent"
+                                  >
+                                    Email address
+                                  </label>
+                                  <input
+                                    type="email"
+                                    className="form-control bg-transparent"
+                                    id="exampleInputEmail1"
+                                    aria-describedby="emailHelp"
+                                    placeholder="Enter your email"
+                                    name="email"
+                                  />
+                                </div>
+
+                                <div className="cta-btn">
+                                  <button type="submit" class="btn px-3">
+                                    Send Message
+                                  </button>
+                                </div>
+                              </form>
+                              <form ref={form} onSubmit={sendEmail}>
                                 <input
-                                  type="search"
-                                  name="search"
-                                  className="ps-3"
-                                  placeholder="Enter Email"
+                                  type="email"
+                                  aria-describedby="emailHelp"
+                                  placeholder="Enter your email"
+                                  name="email"
                                 />
-                                <button>Subscribe</button>
+                                <button type="submit">Subscribe</button>
                               </form>
                             </div>
                           </div>

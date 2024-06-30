@@ -1,5 +1,4 @@
-import { FaStarOfLife, FaArrowRight } from "react-icons/fa6";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import developer_image from "../assets/images/developer-image.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
