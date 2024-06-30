@@ -22,36 +22,48 @@ export default function ProjectsComponents() {
       url: "/images/project-image.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
+      previewLink: "https://restaurant-979076.webflow.io/",
+      githubLink: "https://github.com/showkatbinidris70/ekshop-new-design"
     },
     {
       title: "Webflow Template",
       url: "/images/webflow-2.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
+      previewLink: "https://restaurant-979076.webflow.io/",
+      githubLink: "https://github.com/showkatbinidris70/ekshop-new-design"
     },
     {
       title: "Landing Page",
       url: "/images/landing-page-01.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
+      previewLink: "https://restaurant-979076.webflow.io/",
+      githubLink: "https://github.com/showkatbinidris70/ekshop-new-design"
     },
     {
       title: "Noipunno App Design",
       url: "/images/noipunno.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
+      previewLink: "https://restaurant-979076.webflow.io/",
+      githubLink: "https://github.com/showkatbinidris70/ekshop-new-design"
     },
     {
       title: "E-commerce Template",
       url: "/images/e-commerce.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
+      previewLink: "https://restaurant-979076.webflow.io/",
+      githubLink: "https://github.com/showkatbinidris70/ekshop-new-design"
     },
     {
       title: "Tempalte Design",
       url: "/images/template.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
+      previewLink: "https://restaurant-979076.webflow.io/",
+      githubLink: "https://github.com/showkatbinidris70/ekshop-new-design"
     },
   ];
   return (
@@ -82,7 +94,7 @@ export default function ProjectsComponents() {
             <div className="col-sm-12 col-md-6 col-lg-8">
               <div className="row">
                 {ProjectsData.map((projectsData, index) => {
-                  const { title, preViewBtn, gitHubBtn, url } = projectsData;
+                  const { title, preViewBtn, gitHubBtn, url, previewLink, githubLink } = projectsData;
                   return (
                     <div
                       className="col-sm-12 col-md-12 col-lg-12 col-xl-6 py-3 py-lg-0 my-3"
@@ -101,20 +113,25 @@ export default function ProjectsComponents() {
 
                         <div className="position-absolute bottom-0 w-100">
                           <div className="button-bg-color">
-                            <h5 className="ps-3 pt-3">{title}</h5>
+                            <h6 className="ps-3 pt-3">{title}</h6>
                             <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
                               <div className="cta-btn">
                                 <Link
-                                  to="https://restaurant-979076.webflow.io/"
+                                  to={previewLink}
+                                  target="_blank"
                                   className="btn px-2"
                                 >
                                   {preViewBtn} <FaArrowRight />
                                 </Link>
                               </div>
                               <div className="cta-btn">
-                                <a className="btn px-3">
+                                <Link
+                                  to={githubLink}
+                                  target="_blank"
+                                  className="btn px-3"
+                                >
                                   {gitHubBtn} <FaArrowRight />
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
