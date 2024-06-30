@@ -11,34 +11,40 @@ import tailwindLogo from "../assets/images/icons/tailwind.png";
 
 export default function LogosSliders() {
   return (
-    <div className="logos-slider">
-      <div className="logos-slider-container">
-        <img src={webflowLogo} />
-        <img src={cssLogo} />
-        <img src={figmaLogo} />
-        <img src={JavaScriptLogo} />
-        <img src={reactjsLogo} />
-        <img src={cssLogo} />
-        <img src={wordpressLogo} />
-        <img src={webflowLogo} />
-        <img src={htmlLogo} />
-        <img src={postmanLogo} />
-        <img src={tailwindLogo} />
-        <img src={webflowLogo} />
-      </div>
-      <div className="logos-slider-container ps-5 ms-5">
-        <img src={htmlLogo} />
-        <img src={figmaLogo} />
-        <img src={JavaScriptLogo} />
-        <img src={cssLogo} />
-        <img src={reactjsLogo} />
-        <img src={wordpressLogo} />
-        <img src={cssLogo} />
-        <img src={webflowLogo} />
-        <img src={postmanLogo} />
-        <img src={tailwindLogo} />
-        <img src={htmlLogo} />
-        <img src={webflowLogo} />
+    <div>
+      <div className="container">
+        <div className="row">
+          <div className="logos-slider">
+            <div className="logos-slider-container">
+              <img src={webflowLogo} />
+              <img src={cssLogo} />
+              <img src={figmaLogo} />
+              <img src={JavaScriptLogo} />
+              <img src={reactjsLogo} />
+              <img src={cssLogo} />
+              <img src={wordpressLogo} />
+              <img src={webflowLogo} />
+              <img src={htmlLogo} />
+              <img src={postmanLogo} />
+              <img src={tailwindLogo} />
+              <img src={webflowLogo} />
+            </div>
+            <div className="logos-slider-container ps-5 ms-5">
+              <img src={htmlLogo} />
+              <img src={figmaLogo} />
+              <img src={JavaScriptLogo} />
+              <img src={cssLogo} />
+              <img src={reactjsLogo} />
+              <img src={wordpressLogo} />
+              <img src={cssLogo} />
+              <img src={webflowLogo} />
+              <img src={postmanLogo} />
+              <img src={tailwindLogo} />
+              <img src={htmlLogo} />
+              <img src={webflowLogo} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
