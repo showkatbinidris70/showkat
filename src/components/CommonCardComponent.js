@@ -17,7 +17,7 @@ export default function CommonCardComponent() {
               <div className="asterisk d-none d-md-block">
                 <FaStarOfLife className="text-center asterisk-icon" />
               </div>
-              <h2 className="pt-0 pt-md-3 px-0 px-md-3 px-lg-5">
+              <h2 className="pt-0 pt-md-3 px-1 px-md-3 px-lg-5">
                 Let's create something amazing together
               </h2>
               <div className="cta-btn">

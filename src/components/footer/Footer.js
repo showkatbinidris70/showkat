@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-top">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-sm-6 col-md-6 col-lg-5 py-3 py-md-0">
+              <div className="col-12 col-sm-6 col-md-6 col-lg-5 py-3 py-lg-0">
                 <h4>About Me</h4>
                 <p>
                   Lorem Ipsum ist einfach Dummy-Text der Druck- und
@@ -18,7 +18,7 @@ export default function Footer() {
                   Lorem Ipsum war der Standard der Branche
                 </p>
               </div>
-              <div className="col-12 col-sm-6 col-md-6 col-lg-4 py-3 py-md-0">
+              <div className="col-12 col-sm-6 col-md-6 col-lg-4 py-3 py-lg-0">
                 <h4>Information</h4>
                 <ul className="address1">
                   <li className="d-flex align-items-center">
@@ -34,7 +34,7 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="col-12 col-sm-6 col-md-6 col-lg-3 py-3 py-md-0">
+              <div className="col-12 col-sm-6 col-md-6 col-lg-3 py-3 py-lg-0">
                 <h4>Follow Me</h4>
                 <div className="d-flex gap-3 py-2">
                   <Link

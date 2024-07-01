@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-7 order-1 d-flex align-items-center hero-100vh">
-              <div>
+              <div className="pb-3">
                 <h1
                   className="my-4 pt-3"
                   data-aos="fade-right"
@@ -99,7 +99,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 order-lg-1 d-flex align-items-center align-items-lg-end hero-100vh">
+            <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 order-lg-1 d-flex align-items-center align-items-xl-end hero-100vh">
               <div
                 className="d-flex align-items-end w-100 justify-content-center"
                 data-aos="fade-left"
@@ -107,7 +107,7 @@ export default function Hero() {
               >
                 <img
                   src={hero_image}
-                  className="img-fluid  bottom-0 text-center"
+                  className="img-fluid text-center"
                   alt="Hero image"
                 />
               </div>

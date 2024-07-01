@@ -121,7 +121,7 @@ export default function ProjectsComponents() {
                                   target="_blank"
                                   className="btn px-2"
                                 >
-                                  {preViewBtn} <FaArrowRight />
+                                  {preViewBtn} <FaArrowRight className="d-none col-sm-block"/>
                                 </Link>
                               </div>
                               <div className="cta-btn">
@@ -130,7 +130,7 @@ export default function ProjectsComponents() {
                                   target="_blank"
                                   className="btn px-3"
                                 >
-                                  {gitHubBtn} <FaArrowRight />
+                                  {gitHubBtn} <FaArrowRight className="d-none col-sm-block"/>
                                 </Link>
                               </div>
                             </div>

@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaWhatsapp, FaSkype } from "react-icons/fa";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Contact() {
-
   const form = useRef();
 
   useEffect(() => {
@@ -16,22 +15,21 @@ export default function Contact() {
     });
   }, []);
 
-
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('portfolio-template', 'template_0jpta2h', form.current, {
-        publicKey: 'vbub8giJo34N4q1wv',
+      .sendForm("portfolio-template", "template_0jpta2h", form.current, {
+        publicKey: "vbub8giJo34N4q1wv",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
-          alert("Successfully Submited")
+          console.log("SUCCESS!");
+          alert("Successfully Submited");
         },
         (error) => {
-          console.log('FAILED...', error.text);
-        },
+          console.log("FAILED...", error.text);
+        }
       );
   };
 
@@ -181,7 +179,7 @@ export default function Contact() {
         >
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-md-10">
+              <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-10">
                 <div className="map_inner">
                   <h4>Find Us on Google Map</h4>
                   <div className="map_bind">
