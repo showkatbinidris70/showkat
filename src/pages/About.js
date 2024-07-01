@@ -13,6 +13,7 @@ export default function About() {
     });
   }, []);
 
+
   return (
     <div className="about-section">
       <section className="container pt-5">

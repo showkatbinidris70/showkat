@@ -101,7 +101,7 @@ export default function ProjectsComponents() {
 
                         <div className="position-absolute bottom-0 w-100">
                           <div className="button-bg-color">
-                            <h5 className="ps-3 pt-3">{title}</h5>
+                            <h6 className="ps-3 pt-3">{title}</h6>
                             <div className="d-flex justify-content-between gap-3 px-3 pb-3 pt-2">
                               <div className="cta-btn">
                                 <Link

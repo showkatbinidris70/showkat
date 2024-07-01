@@ -3,6 +3,11 @@ import { FaStarOfLife, FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export default function CommonCardComponent() {
+  const handleButtonClick = () => {
+    // Navigate to Gmail inbox (or any other URL)
+    window.location.href = "https://mail.google.com/";
+  };
+
   return (
     <div>
       <section className="common-card">
@@ -18,9 +23,10 @@ export default function CommonCardComponent() {
               <div className="cta-btn">
                 <Link
                   className="btn py-3 mt-4 px-1 px-md-3"
-                  to="/contact"
                   data-aos="zoom-in"
+                  target="_blank"
                   data-aos-duration="2000"
+                  onClick={handleButtonClick}
                 >
                   showkatbinidris70@gmail.com <FaArrowRight />
                 </Link>
