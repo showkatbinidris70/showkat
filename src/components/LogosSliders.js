@@ -12,6 +12,7 @@ import tailwindLogo from "../assets/images/icons/tailwind.png";
 export default function LogosSliders() {
   return (
     <div>
+      {/* client logo slider */}
       <div className="container">
         <div className="row">
           <div className="logos-slider">

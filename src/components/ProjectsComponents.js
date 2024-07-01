@@ -11,11 +11,13 @@ import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
 
 export default function ProjectsComponents() {
+  // aos revel animation
   useEffect(() => {
     AOS.init({
       once: "true",
     });
   }, []);
+  // All projects json data
   const ProjectsData = [
     {
       title: "Webflow Template",
@@ -121,7 +123,7 @@ export default function ProjectsComponents() {
                                   target="_blank"
                                   className="btn px-2"
                                 >
-                                  {preViewBtn} <FaArrowRight className="d-none col-sm-block"/>
+                                  {preViewBtn} <FaArrowRight className="d-none col-sm-block" />
                                 </Link>
                               </div>
                               <div className="cta-btn">
@@ -130,7 +132,7 @@ export default function ProjectsComponents() {
                                   target="_blank"
                                   className="btn px-3"
                                 >
-                                  {gitHubBtn} <FaArrowRight className="d-none col-sm-block"/>
+                                  {gitHubBtn} <FaArrowRight className="d-none col-sm-block" />
                                 </Link>
                               </div>
                             </div>

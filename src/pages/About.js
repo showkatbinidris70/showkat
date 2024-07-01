@@ -7,6 +7,7 @@ import CommonCardComponent from "../components/CommonCardComponent";
 import Typewriter from "typewriter-effect";
 
 export default function About() {
+  // aos revel animation
   useEffect(() => {
     AOS.init({
       once: "true",
@@ -16,6 +17,7 @@ export default function About() {
 
   return (
     <div className="about-section">
+      {/* about section */}
       <section className="container pt-5">
         <div className="row">
           <div className="text-center py-5">

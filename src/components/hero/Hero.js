@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
 
 export default function Hero() {
+  // aos revel animation
   useEffect(() => {
     AOS.init({
       once: "true",
@@ -16,6 +17,7 @@ export default function Hero() {
 
   return (
     <div>
+      {/* Hero Section */}
       <section className="home-hero">
         <div className="container">
           <div className="row">

@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Projects() {
+  // aos revel animation
   useEffect(() => {
     AOS.init({
       once: "true",
@@ -12,9 +13,12 @@ export default function Projects() {
   }, []);
   return (
     <div className="pt-5">
+      {/* All Projects */}
       <section className="projects pt-5">
         <ProjectsComponents />
       </section>
+
+      {/* Commoncard Design here */}
       <section data-aos="fade-up" data-aos-duration="2000" className="py-5">
         <CommonCardComponent />
       </section>

@@ -5,6 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 export default function FeaturesComponent() {
     return (
         <div>
+            {/* Features Section */}
             <section
                 data-aos="fade-up"
                 data-aos-duration="2000"

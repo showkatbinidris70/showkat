@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
-import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
+
 export default function Layout() {
   const [affix, setAffix] = useState(false);
 
+  // Scrolling Effect Navbar
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -26,6 +27,7 @@ export default function Layout() {
   const closeNav = () => setIsNavCollapsed(true);
   return (
     <>
+      {/* header section */}
       <header className="header sticky-top">
         <div className={`nav ${affix ? "affix" : ""}`}>
           <div className="container">
@@ -48,9 +50,8 @@ export default function Layout() {
                     <span className="navbar-toggler-icon" />
                   </button>
                   <div
-                    className={`${
-                      isNavCollapsed ? "collapse" : ""
-                    } navbar-collapse`}
+                    className={`${isNavCollapsed ? "collapse" : ""
+                      } navbar-collapse`}
                     id="navbarNav"
                   >
                     <ul className="navbar-nav ms-md-auto gap-2 d-flex align-items-start align-items-lg-center">

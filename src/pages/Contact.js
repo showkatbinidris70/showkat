@@ -8,13 +8,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Contact() {
   const form = useRef();
-
+  // aos revel animation
   useEffect(() => {
     AOS.init({
       once: "true",
     });
   }, []);
 
+  // contact form js code
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -36,6 +37,7 @@ export default function Contact() {
   return (
     <div>
       <>
+        {/* common card design */}
         <section className="common-card py-5">
           <div className="container">
             <div className="d-flex justify-content-center text-center py-5">
@@ -172,6 +174,7 @@ export default function Contact() {
           </div>
         </section>
 
+        {/* google map  */}
         <section
           className="map_sec py-5"
           data-aos="fade-up"
