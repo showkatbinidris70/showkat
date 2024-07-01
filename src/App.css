@@ -58,8 +58,8 @@ body {
 }
 
 .nav {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -124,7 +124,7 @@ body {
 }
 
 .home-hero .hero-100vh {
-  height: 90vh;
+  height: 93vh;
 }
 
 .home-hero .hero-slogan {
@@ -678,6 +678,16 @@ footer .copyright {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
@@ -685,6 +695,18 @@ footer .copyright {
     padding-left: 0px;
     width: calc(100% - 10px);
   }
+  .home-hero .hero-100vh {
+    height: 60vh;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+ 
 }
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {

@@ -3,11 +3,10 @@ import { FaStarOfLife, FaArrowRight } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 export default function CommonCardComponent() {
+  // Navigate to Gmail inbox (or any other URL)
   const handleButtonClick = () => {
-    // Navigate to Gmail inbox (or any other URL)
-    window.location.href = "https://mail.google.com/";
+    window.open("https://mail.google.com/", "_blank");
   };
-
   return (
     <div>
       <section className="common-card">
@@ -21,15 +20,17 @@ export default function CommonCardComponent() {
                 Let's create something amazing together
               </h2>
               <div className="cta-btn">
-                <Link
+                <a
                   className="btn py-3 mt-4 px-1 px-md-3"
                   data-aos="zoom-in"
-                  target="_blank"
                   data-aos-duration="2000"
+                  href="https://mail.google.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   onClick={handleButtonClick}
                 >
                   showkatbinidris70@gmail.com <FaArrowRight />
-                </Link>
+                </a>
               </div>
             </div>
           </div>

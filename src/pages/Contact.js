@@ -51,7 +51,7 @@ export default function Contact() {
               <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-10">
                 <div className="card border-0 card-shadow py-5 px-2 px-md-3 px-lg-5">
                   <div className="row">
-                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5">
                       <div className="">
                         <div className="mb-5">
                           <h5>Contact information</h5>
@@ -98,7 +98,7 @@ export default function Contact() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-8">
+                    <div className="col-sm-12 col-md-12 col-lg-6 col-xl-7">
                       <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-3">
                           <label htmlFor="name" className="form-label">
