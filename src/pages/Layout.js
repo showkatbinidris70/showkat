@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
+import Logo from '../assets/images/logo.png'
 
 export default function Layout() {
   const [affix, setAffix] = useState(false);
@@ -35,7 +36,8 @@ export default function Layout() {
               <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid px-0">
                   <a className="navbar-brand" href="/">
-                    <h3 className="fs-3">Showkat Ali</h3>
+                    {/* <img src={Logo} className="img-fluid main-logo" alt="main logo" /> */}
+                    <h4 className="img-fluid main-logo">Showkat</h4>
                   </a>
                   <button
                     className="navbar-toggler"

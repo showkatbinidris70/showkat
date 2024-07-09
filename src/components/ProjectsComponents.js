@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 // swiper slider
@@ -11,6 +11,12 @@ import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
 
 export default function ProjectsComponents() {
+  const [visible, setVisible] = useState(4);
+
+
+  const ShowMoreItems = () => {
+    setVisible((preValue) => preValue + 4);
+  }
   // aos revel animation
   useEffect(() => {
     AOS.init({
@@ -95,7 +101,7 @@ export default function ProjectsComponents() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-8">
               <div className="row">
-                {ProjectsData.map((projectsData, index) => {
+                {ProjectsData && ProjectsData.slice(0, visible).map((projectsData, index) => {
                   const { title, preViewBtn, gitHubBtn, url, previewLink, githubLink } = projectsData;
                   return (
                     <div
@@ -142,6 +148,9 @@ export default function ProjectsComponents() {
                     </div>
                   );
                 })}
+                <div className="cta-btn">
+                  <button onClick={ShowMoreItems} className="btn px-3">Show More</button>
+                </div>
               </div>
             </div>
           </div>
