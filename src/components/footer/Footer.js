@@ -32,6 +32,13 @@ export default function Footer() {
                     />
                     <p className="text-dark">+8801921839596</p>
                   </li>
+                  <li className="d-flex align-items-center">
+                    <i
+                      className="fa fa-mobile pe-2 text-secondary"
+                      aria-hidden="true"
+                    />
+                    <p className="text-dark">+8801572133260 (What's App)</p>
+                  </li>
                 </ul>
               </div>
               <div className="col-12 col-sm-6 col-md-6 col-lg-3 py-3 py-lg-0">
