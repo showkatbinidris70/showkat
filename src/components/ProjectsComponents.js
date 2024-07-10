@@ -26,20 +26,36 @@ export default function ProjectsComponents() {
   // All projects json data
   const ProjectsData = [
     {
-      title: "Webflow Template",
+      title: "Webflow Restaurant Template",
       url: "/images/project-image.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
       previewLink: "https://restaurant-979076.webflow.io/",
-      githubLink: "https://github.com/showkatbinidris70/ekshop-new-design"
+      githubLink: "https://restaurant-979076.webflow.io/"
+    },
+    {
+      title: "Webflow Mosque Template",
+      url: "/images/mosque.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
+      previewLink: "https://showkats-design.webflow.io/",
+      githubLink: "https://showkats-design.webflow.io/"
+    },
+    {
+      title: "Webflow Mosque Template",
+      url: "/images/template_003.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
+      previewLink: "https://showkats-design.webflow.io/webflow-tutorial-101",
+      githubLink: "https://showkats-design.webflow.io/webflow-tutorial-101"
     },
     {
       title: "Webflow Template",
       url: "/images/webflow-2.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
-      previewLink: "https://restaurant-979076.webflow.io/",
-      githubLink: "https://github.com/showkatbinidris70/ekshop-new-design"
+      previewLink: "https://my-five-star-site-7568bb.webflow.io/",
+      githubLink: "https://my-five-star-site-7568bb.webflow.io/"
     },
     {
       title: "Landing Page",
