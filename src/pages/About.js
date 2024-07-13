@@ -18,8 +18,17 @@ export default function About() {
   return (
     <div className="about-section">
       {/* about section */}
-      <div className="row about-developer">
-        <div className="text-center py-5">
+      <div className="row about-developer d-none">
+        <div className="d-none">
+          <div className="mx-auto developer-image py-3">
+            <img
+              src={developer_image}
+              class="img-fluid w-100 h-100 rounded-circle"
+              alt="Developer's image"
+            />
+          </div>
+        </div>
+        <div className="text-center">
           <div className="mx-auto developer-image py-3">
             <img
               src={developer_image}
@@ -41,6 +50,33 @@ export default function About() {
           </h4>
         </div>
       </div>
+
+      <section className="about-developer">
+        <div className="mx-auto developer-image py-3 text-center">
+          <img
+            src={developer_image}
+            class="img-fluid w-100 h-100 rounded-circle"
+            alt="Developer's image"
+          />
+        </div>
+        <div className="container">
+          <div className="text-center">
+            <h1 data-aos="fade-left" data-aos-duration="2000" className="">
+              Showkat Ali
+            </h1>
+            <h4 data-aos="fade-right" data-aos-duration="2000" className="">
+              <Typewriter
+                options={{
+                  strings: [" Front-end Developer", " Webflow Developer"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h4>
+          </div>
+        </div>
+      </section>
+
       <section className="container pt-5">
         <div className="row" data-aos="fade-up" data-aos-duration="2000">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-7">

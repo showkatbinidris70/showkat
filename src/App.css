@@ -261,8 +261,7 @@ body {
   background-color: rgba(239, 243, 247, 1);
   background-image: url(./assets/images/u-bg-2.jpg);
   justify-content: center;
-  display: flex;
-  overflow: hidden;
+  overflow: hidden !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -657,6 +656,17 @@ h6 {
 }
 
 /* call-to-action-card end */
+/* chat bot start */
+.glfuN{
+  background-color: #eff3f7 !important;
+  fill: #000 !important;
+}
+.rsc-header-title{
+  color: #fff !important;
+}
+.godhbL{
+  background-color: #7c75f4 !important;
+}
 /* footer start */
 footer .footer-top {
   background: var(--bg_fifth);
