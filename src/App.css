@@ -112,15 +112,25 @@ body {
 
 /* hero section start */
 .home-hero {
-  background-color: #eff3f7;
-  /* background-image: url(./assets/images/bg-image.svg),
-    url(./assets/images/bg-image-2.svg), url(./assets/images/bg-image.svg);
+  /* background-color: #eff3f7; */
+  background-color: rgba(239, 243, 247, 1);
+  background-image: url(./assets/images/u-bg-1.jpg);
+  /* url(./assets/images/bg-image-2.svg), url(./assets/images/bg-image.svg); */
   background-position: 80% 100%, 60px 0, 0 0;
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 45%, 25%, cover;
+  background-size: cover;
   justify-content: center;
   display: flex;
-  overflow: hidden; */
+  overflow: hidden;
+
+  /* background-color: rgba(43, 37, 5, 0.8); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+  /* background: url("/assets/images/butex-nitice-bg-img.png") rgba(43, 37, 5, 0.8); */
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .home-hero .hero-100vh {
@@ -247,6 +257,18 @@ body {
 /* contact us end */
 
 /* about-section start */
+.about-developer {
+  background-color: rgba(239, 243, 247, 1);
+  background-image: url(./assets/images/u-bg-2.jpg);
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
 .about-section table ul li {
   font-size: 14px;
   list-style-type: square;

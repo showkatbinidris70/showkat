@@ -18,30 +18,30 @@ export default function About() {
   return (
     <div className="about-section">
       {/* about section */}
-      <section className="container pt-5">
-        <div className="row">
-          <div className="text-center py-5">
-            <div className="mx-auto developer-image py-3">
-              <img
-                src={developer_image}
-                class="img-fluid w-100 h-100 rounded-circle"
-                alt="Developer's image"
-              />
-            </div>
-            <h1 data-aos="fade-left" data-aos-duration="2000" className="">
-              Showkat Ali
-            </h1>
-            <h4 data-aos="fade-right" data-aos-duration="2000" className="">
-              <Typewriter
-                options={{
-                  strings: [" Front-end Developer", " Webflow Developer"],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h4>
+      <div className="row about-developer">
+        <div className="text-center py-5">
+          <div className="mx-auto developer-image py-3">
+            <img
+              src={developer_image}
+              class="img-fluid w-100 h-100 rounded-circle"
+              alt="Developer's image"
+            />
           </div>
+          <h1 data-aos="fade-left" data-aos-duration="2000" className="">
+            Showkat Ali
+          </h1>
+          <h4 data-aos="fade-right" data-aos-duration="2000" className="">
+            <Typewriter
+              options={{
+                strings: [" Front-end Developer", " Webflow Developer"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h4>
         </div>
+      </div>
+      <section className="container pt-5">
         <div className="row" data-aos="fade-up" data-aos-duration="2000">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-7">
             <h5 className="py-2">

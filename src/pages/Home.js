@@ -269,7 +269,7 @@ export default function Home() {
                         src={News_letter_img_one}
                         className="img-fluid rounded"
                         alt="news letter image"
-                        data-aos="flip-right"
+                        data-aos="fade-left"
                         data-aos-duration="2000"
                       />
                     </div>
