@@ -3,6 +3,7 @@ import Hero from "../components/hero/Hero";
 import News_letter_img_one from "../assets/images/pexels-goumbik-653429.jpg";
 import News_letter_img_two from "../assets/images/undefined - Imgur.png";
 import News_letter_img_three from "../assets/images/img-002.png";
+import slider_image_one from '../assets/images/pexels-hillaryfox-1595385.jpg'
 import slider_image_two from "../assets/images/slider image 2.png";
 import { RiDoubleQuotesL } from "react-icons/ri";
 // swiper slider
@@ -95,7 +96,7 @@ export default function Home() {
                               <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start">
                                 <div className="blob m-2">
                                   <img
-                                    src={slider_image_two}
+                                    src={slider_image_one}
                                     className="img-fluid"
                                     alt="news letter image"
                                   />
@@ -106,16 +107,11 @@ export default function Home() {
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
-                                  Their design process is really unique. They
-                                  collaborated with us on our project. The
-                                  communication was simple and transparent. They
-                                  have a talented team of designer who
-                                  understands the insights very clearly and
-                                  continues to push their efforts.
+                                  We are extremely happy with the website that Fluid Studios Ltd have created for us. It is visually appealing, clean, easy to navigate and responsive – everything we asked for. We would definitely recommend Fluid Studios to others.
                                 </p>
                                 <div className="pt-2 text-end">
-                                  <h5>CEO</h5>
-                                  <h6>Mohammad</h6>
+                                  <h5>IDE Technologys</h5>
+                                  <h6>Ronan Burnett</h6>
                                 </div>
                               </div>
                             </div>
@@ -163,7 +159,7 @@ export default function Home() {
                               <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start">
                                 <div className="blob m-2">
                                   <img
-                                    src={slider_image_two}
+                                    src={slider_image_one}
                                     className="img-fluid"
                                     alt="news letter image"
                                   />
@@ -174,50 +170,11 @@ export default function Home() {
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
-                                  Their design process is really unique. They
-                                  collaborated with us on our project. The
-                                  communication was simple and transparent. They
-                                  have a talented team of designer who
-                                  understands the insights very clearly and
-                                  continues to push their efforts.
+                                  We are extremely happy with the website that Fluid Studios Ltd have created for us. It is visually appealing, clean, easy to navigate and responsive – everything we asked for. We would definitely recommend Fluid Studios to others.
                                 </p>
                                 <div className="pt-2 text-end">
-                                  <h5>CEO</h5>
-                                  <h6>Mohammad</h6>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </SwiperSlide>
-                      <SwiperSlide className="testimonial">
-                        <div className="common-card py-5">
-                          <div className="card card-shadow py-4 px-4">
-                            <div className="row">
-                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start">
-                                <div className="blob m-2">
-                                  <img
-                                    src={slider_image_two}
-                                    className="img-fluid"
-                                    alt="news letter image"
-                                  />
-                                </div>
-                              </div>
-                              <div className=" col-ms-6 col-md-6 col-lg-7">
-                                <h2 className="quote">
-                                  <RiDoubleQuotesL className="double-quote" />
-                                </h2>
-                                <p className="description pt-3">
-                                  Their design process is really unique. They
-                                  collaborated with us on our project. The
-                                  communication was simple and transparent. They
-                                  have a talented team of designer who
-                                  understands the insights very clearly and
-                                  continues to push their efforts.
-                                </p>
-                                <div className="pt-2 text-end">
-                                  <h5>CEO</h5>
-                                  <h6>Mohammad</h6>
+                                  <h5>IDE Technologys</h5>
+                                  <h6>Ronan Burnett</h6>
                                 </div>
                               </div>
                             </div>

@@ -611,7 +611,7 @@ h5 {
   background-clip: text;
   line-height: 1.1;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.5rem;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 1;
@@ -626,7 +626,7 @@ h6 {
   background-clip: text;
   line-height: 1.1;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 1;

@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { MdOutlineWebhook } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa6";
+import { DiBlackberry } from "react-icons/di";
+import WebflowLogo from '../assets/images/icons/webflow.png'
 export default function FeaturesComponent() {
     return (
         <div>
@@ -21,7 +23,7 @@ export default function FeaturesComponent() {
                                 data-aos-duration="2000"
                             >
                                 <div className="card border-0 card-shadow p-1 p-md-2 p-lg-3">
-                                    <MdOutlineWebhook className="fs-1 m-3" />
+                                    <DiBlackberry className="fs-1 m-3 text-primary" />
                                     <div className="card-body">
                                         <h6 className="card-title">Custom Website</h6>
                                         <p className="card-text">
@@ -45,11 +47,11 @@ export default function FeaturesComponent() {
                         <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
                             <div className="common-card">
                                 <div className="card border-0 card-shadow p-1 p-md-2 p-lg-3">
-                                    <MdOutlineWebhook className="fs-1 m-3" />
+                                    <MdOutlineWebhook className="fs-1 m-3 text-primary" />
                                     <div className="card-body">
                                         <h6 className="card-title">Responsive Design</h6>
                                         <p className="card-text">
-                                            Creates tailored websites to reflect your brand and engage
+                                            Desing a responsive websites to reflect your brand and engage
                                             your audience effectively.
                                         </p>
                                         <div className="cta-btn">
@@ -73,12 +75,11 @@ export default function FeaturesComponent() {
                                 data-aos-duration="2000"
                             >
                                 <div className="card border-0 card-shadow p-1 p-md-2 p-lg-3">
-                                    <MdOutlineWebhook className="fs-1 m-3" />
+                                    <img src={WebflowLogo} style={{ width: "45px" }} className='m-3' />
                                     <div className="card-body">
                                         <h6 className="card-title">Webflow Development</h6>
                                         <p className="card-text">
-                                            Creates tailored websites to reflect your brand and engage
-                                            your audience effectively.
+                                            As a Webflow Developer, I create custom, responsive websites with advanced interactions, SEO optimization, and easy content management.
                                         </p>
                                         <div className="cta-btn">
                                             <Link

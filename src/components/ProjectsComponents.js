@@ -108,10 +108,7 @@ export default function ProjectsComponents() {
                   />
                 </h2>
                 <p className="py-3">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore eveniet earum debitis ad cum atque architecto nulla
-                  accusamus soluta tenetur at, perspiciatis, quia eius minima
-                  omnis asperiores possimus officiis voluptate.
+                  This portfolio showcases my work tailored for clients, featuring responsive designs and interactive elements. Each project demonstrates my dedication to delivering innovative, user-centered solutions that meet specific client needs and enhance their online presence.
                 </p>
               </div>
             </div>

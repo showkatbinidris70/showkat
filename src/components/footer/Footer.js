@@ -12,10 +12,7 @@ export default function Footer() {
               <div className="col-12 col-sm-6 col-md-6 col-lg-5 py-3 py-lg-0">
                 <h4>About Me</h4>
                 <p>
-                  Lorem Ipsum ist einfach Dummy-Text der Druck- und
-                  Satzindustrie. Lorem Ipsum war der Standard der Branche Lorem
-                  Ipsum ist einfach Dummy-Text der Druck- und Satzindustrie.
-                  Lorem Ipsum war der Standard der Branche
+                  I enjoy learning new skills and working with diverse cultures. Energetic and adaptable, I thrive in fast-paced environments. As a self-taught developer, I'm committed to personal growth and career change.
                 </p>
               </div>
               <div className="col-12 col-sm-6 col-md-6 col-lg-4 py-3 py-lg-0">
