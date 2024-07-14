@@ -3,7 +3,7 @@ import Hero from "../components/hero/Hero";
 import News_letter_img_one from "../assets/images/pexels-goumbik-653429.jpg";
 import News_letter_img_two from "../assets/images/undefined - Imgur.png";
 import News_letter_img_three from "../assets/images/img-002.png";
-import slider_image_one from '../assets/images/pexels-hillaryfox-1595385.jpg'
+import slider_image_one from "../assets/images/pexels-hillaryfox-1595385.jpg";
 import slider_image_two from "../assets/images/slider image 2.png";
 import { RiDoubleQuotesL } from "react-icons/ri";
 // swiper slider
@@ -45,7 +45,6 @@ export default function Home() {
         }
       );
   };
-
 
   return (
     <div>
@@ -107,7 +106,12 @@ export default function Home() {
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
-                                  We are extremely happy with the website that Fluid Studios Ltd have created for us. It is visually appealing, clean, easy to navigate and responsive – everything we asked for. We would definitely recommend Fluid Studios to others.
+                                  We are extremely happy with the website that
+                                  Fluid Studios Ltd have created for us. It is
+                                  visually appealing, clean, easy to navigate
+                                  and responsive – everything we asked for. We
+                                  would definitely recommend Fluid Studios to
+                                  others.
                                 </p>
                                 <div className="pt-2 text-end">
                                   <h5>IDE Technologys</h5>
@@ -170,7 +174,12 @@ export default function Home() {
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
-                                  We are extremely happy with the website that Fluid Studios Ltd have created for us. It is visually appealing, clean, easy to navigate and responsive – everything we asked for. We would definitely recommend Fluid Studios to others.
+                                  We are extremely happy with the website that
+                                  Fluid Studios Ltd have created for us. It is
+                                  visually appealing, clean, easy to navigate
+                                  and responsive – everything we asked for. We
+                                  would definitely recommend Fluid Studios to
+                                  others.
                                 </p>
                                 <div className="pt-2 text-end">
                                   <h5>IDE Technologys</h5>
@@ -281,6 +290,7 @@ export default function Home() {
                               </form>
                               <form ref={form} onSubmit={sendEmail}>
                                 <input
+                                  className="ps-2"
                                   type="email"
                                   aria-describedby="emailHelp"
                                   placeholder="Enter your email"
