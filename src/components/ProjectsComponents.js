@@ -41,7 +41,7 @@ export default function ProjectsComponents() {
       githubLink: "https://showkats-design.webflow.io/",
     },
     {
-      title: "Webflow Mosque Template",
+      title: "Webflow Template",
       url: "/images/template_003.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
