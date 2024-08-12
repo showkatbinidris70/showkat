@@ -92,7 +92,7 @@ export default function Home() {
                         <div className="common-card py-5">
                           <div className="card card-shadow py-4 px-4">
                             <div className="row">
-                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start">
+                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start d-none d-lg-block">
                                 <div className="blob m-2">
                                   <img
                                     src={slider_image_one}
@@ -101,7 +101,7 @@ export default function Home() {
                                   />
                                 </div>
                               </div>
-                              <div className=" col-ms-6 col-md-6 col-lg-7">
+                              <div className=" col-ms-12 col-md-12 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
@@ -126,7 +126,7 @@ export default function Home() {
                         <div className="common-card py-5">
                           <div className="card card-shadow py-4 px-4">
                             <div className="row">
-                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start">
+                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start d-none d-lg-block">
                                 <div className="blob m-2">
                                   <img
                                     src={slider_image_two}
@@ -135,7 +135,7 @@ export default function Home() {
                                   />
                                 </div>
                               </div>
-                              <div className=" col-ms-6 col-md-6 col-lg-7">
+                              <div className=" col-ms-12 col-md-12 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
@@ -160,7 +160,7 @@ export default function Home() {
                         <div className="common-card py-5">
                           <div className="card card-shadow py-4 px-4">
                             <div className="row">
-                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start">
+                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start d-none d-lg-block">
                                 <div className="blob m-2">
                                   <img
                                     src={slider_image_one}
@@ -169,7 +169,7 @@ export default function Home() {
                                   />
                                 </div>
                               </div>
-                              <div className=" col-ms-6 col-md-6 col-lg-7">
+                              <div className=" col-ms-12 col-md-12 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
