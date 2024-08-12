@@ -230,7 +230,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="row">
-                    <div className="col-sm-12 col-md-6 col-xl-6">
+                    <div className="col-sm-12 col-md-6 col-xl-6 d-none d-md-block">
                       <img
                         src={News_letter_img_one}
                         className="img-fluid rounded"
@@ -254,8 +254,7 @@ export default function Home() {
                             />
                             <span className="d-block mt-3 desc">
                               Subscribe to our newsletter in order not to miss
-                              new arrivals
-                              <br /> promotions and discounts of our store
+                              new arrivals promotions and discounts of our store
                             </span>
                           </div>
                           <div className="mx-1 mx-xl-5 my-3">
