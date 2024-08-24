@@ -3,7 +3,7 @@ import Hero from "../components/hero/Hero";
 import News_letter_img_one from "../assets/images/pexels-goumbik-653429.jpg";
 import News_letter_img_two from "../assets/images/undefined - Imgur.png";
 import News_letter_img_three from "../assets/images/img-002.png";
-import slider_image_one from '../assets/images/pexels-hillaryfox-1595385.jpg'
+import slider_image_one from "../assets/images/pexels-hillaryfox-1595385.jpg";
 import slider_image_two from "../assets/images/slider image 2.png";
 import { RiDoubleQuotesL } from "react-icons/ri";
 // swiper slider
@@ -45,7 +45,6 @@ export default function Home() {
         }
       );
   };
-
 
   return (
     <div>
@@ -93,7 +92,7 @@ export default function Home() {
                         <div className="common-card py-5">
                           <div className="card card-shadow py-4 px-4">
                             <div className="row">
-                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start">
+                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start d-none d-lg-block">
                                 <div className="blob m-2">
                                   <img
                                     src={slider_image_one}
@@ -102,12 +101,17 @@ export default function Home() {
                                   />
                                 </div>
                               </div>
-                              <div className=" col-ms-6 col-md-6 col-lg-7">
+                              <div className=" col-ms-12 col-md-12 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
-                                  We are extremely happy with the website that Fluid Studios Ltd have created for us. It is visually appealing, clean, easy to navigate and responsive – everything we asked for. We would definitely recommend Fluid Studios to others.
+                                  We are extremely happy with the website that
+                                  Fluid Studios Ltd have created for us. It is
+                                  visually appealing, clean, easy to navigate
+                                  and responsive – everything we asked for. We
+                                  would definitely recommend Fluid Studios to
+                                  others.
                                 </p>
                                 <div className="pt-2 text-end">
                                   <h5>IDE Technologys</h5>
@@ -122,7 +126,7 @@ export default function Home() {
                         <div className="common-card py-5">
                           <div className="card card-shadow py-4 px-4">
                             <div className="row">
-                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start">
+                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start d-none d-lg-block">
                                 <div className="blob m-2">
                                   <img
                                     src={slider_image_two}
@@ -131,7 +135,7 @@ export default function Home() {
                                   />
                                 </div>
                               </div>
-                              <div className=" col-ms-6 col-md-6 col-lg-7">
+                              <div className=" col-ms-12 col-md-12 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
@@ -156,7 +160,7 @@ export default function Home() {
                         <div className="common-card py-5">
                           <div className="card card-shadow py-4 px-4">
                             <div className="row">
-                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start">
+                              <div className="col-ms-6 col-md-6 col-lg-5 d-flex justify-content-start d-none d-lg-block">
                                 <div className="blob m-2">
                                   <img
                                     src={slider_image_one}
@@ -165,12 +169,17 @@ export default function Home() {
                                   />
                                 </div>
                               </div>
-                              <div className=" col-ms-6 col-md-6 col-lg-7">
+                              <div className=" col-ms-12 col-md-12 col-lg-7">
                                 <h2 className="quote">
                                   <RiDoubleQuotesL className="double-quote" />
                                 </h2>
                                 <p className="description pt-3">
-                                  We are extremely happy with the website that Fluid Studios Ltd have created for us. It is visually appealing, clean, easy to navigate and responsive – everything we asked for. We would definitely recommend Fluid Studios to others.
+                                  We are extremely happy with the website that
+                                  Fluid Studios Ltd have created for us. It is
+                                  visually appealing, clean, easy to navigate
+                                  and responsive – everything we asked for. We
+                                  would definitely recommend Fluid Studios to
+                                  others.
                                 </p>
                                 <div className="pt-2 text-end">
                                   <h5>IDE Technologys</h5>
@@ -221,7 +230,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="row">
-                    <div className="col-sm-12 col-md-6 col-xl-6">
+                    <div className="col-sm-12 col-md-6 col-xl-6 d-none d-md-block">
                       <img
                         src={News_letter_img_one}
                         className="img-fluid rounded"
@@ -245,8 +254,7 @@ export default function Home() {
                             />
                             <span className="d-block mt-3 desc">
                               Subscribe to our newsletter in order not to miss
-                              new arrivals
-                              <br /> promotions and discounts of our store
+                              new arrivals promotions and discounts of our store
                             </span>
                           </div>
                           <div className="mx-1 mx-xl-5 my-3">
@@ -281,6 +289,7 @@ export default function Home() {
                               </form>
                               <form ref={form} onSubmit={sendEmail}>
                                 <input
+                                  className="ps-2"
                                   type="email"
                                   aria-describedby="emailHelp"
                                   placeholder="Enter your email"
