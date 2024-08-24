@@ -30,8 +30,8 @@ export default function ProjectsComponents() {
       url: "/images/project-image.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
-      previewLink: "https://restaurant-979076.webflow.io/",
-      githubLink: "https://restaurant-979076.webflow.io/"
+      previewLink: "https://shshetudev.webflow.io/",
+      githubLink: "https://shshetudev.webflow.io/"
     },
     {
       title: "Webflow Mosque Template",

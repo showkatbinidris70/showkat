@@ -156,6 +156,7 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  font-family: "Lato";
 }
 
 .home-hero .desc {
@@ -169,6 +170,7 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
+  font-family: "Lato";
 }
 
 .social-icons {
@@ -202,6 +204,11 @@ body {
 
 /* features end */
 /* projects start */
+.projects p {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+}
 
 .projects .window {
   width: 100%;
@@ -272,6 +279,7 @@ body {
   font-size: 14px;
   list-style-type: square;
   margin-left: 30px;
+  font-family: "Lato";
 }
 
 .about-section .skills .lang-mark {
@@ -436,10 +444,12 @@ body {
 .testimonial-section .sec-title {
   position: relative;
   margin-bottom: 115px;
+  font-family: "Lato";
 }
 
 .testimonial-section .sec-title .title {
   margin-bottom: 20px;
+  font-family: "Lato";
 }
 
 .testimonial-section .thumb-layer {
@@ -657,16 +667,19 @@ h6 {
 
 /* call-to-action-card end */
 /* chat bot start */
-.glfuN{
+.glfuN {
   background-color: #eff3f7 !important;
   fill: #000 !important;
 }
-.rsc-header-title{
+
+.rsc-header-title {
   color: #fff !important;
 }
-.godhbL{
+
+.godhbL {
   background-color: #7c75f4 !important;
 }
+
 /* footer start */
 footer .footer-top {
   background: var(--bg_fifth);
@@ -684,6 +697,9 @@ footer .footer-top p {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 footer .footer-bottom {
@@ -702,7 +718,9 @@ footer .footer-bottom ul li:last-child {
 }
 
 footer .copyright {
-  font-size: 18px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /* footer end */
