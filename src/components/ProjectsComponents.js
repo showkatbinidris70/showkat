@@ -25,12 +25,20 @@ export default function ProjectsComponents() {
   // All projects json data
   const ProjectsData = [
     {
+      title: "Webflow Hiring Hub Template",
+      url: "/images/hiring-hub.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
+      previewLink: "https://shshetudev.webflow.io/hiring-hub/home",
+      // githubLink: "https://shshetudev.webflow.io/hiring-hub/home",
+    },
+    {
       title: "Webflow Restaurant Template",
       url: "/images/project-image.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
       previewLink: "https://shshetudev.webflow.io/",
-      githubLink: "https://shshetudev.webflow.io/"
+      // githubLink: "https://shshetudev.webflow.io/",
     },
     {
       title: "Webflow Mosque Template",
@@ -38,7 +46,7 @@ export default function ProjectsComponents() {
       preViewBtn: "Live View",
       gitHubBtn: "Github",
       previewLink: "https://showkats-design.webflow.io/",
-      githubLink: "https://showkats-design.webflow.io/",
+      // githubLink: "https://showkats-design.webflow.io/",
     },
     {
       title: "Webflow Template",
@@ -46,7 +54,7 @@ export default function ProjectsComponents() {
       preViewBtn: "Live View",
       gitHubBtn: "Github",
       previewLink: "https://showkats-design.webflow.io/webflow-tutorial-101",
-      githubLink: "https://showkats-design.webflow.io/webflow-tutorial-101",
+      // githubLink: "https://showkats-design.webflow.io/webflow-tutorial-101",
     },
     {
       title: "Webflow Template",
@@ -54,7 +62,7 @@ export default function ProjectsComponents() {
       preViewBtn: "Live View",
       gitHubBtn: "Github",
       previewLink: "https://my-five-star-site-7568bb.webflow.io/",
-      githubLink: "https://my-five-star-site-7568bb.webflow.io/",
+      // githubLink: "https://my-five-star-site-7568bb.webflow.io/",
     },
     {
       title: "Ek-shop Landing Page",
