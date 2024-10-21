@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
-import Logo from '../assets/images/logo.png'
+import Logo from "../assets/images/logo.png";
 
 export default function Layout() {
   const [affix, setAffix] = useState(false);
@@ -52,8 +52,9 @@ export default function Layout() {
                     <span className="navbar-toggler-icon" />
                   </button>
                   <div
-                    className={`${isNavCollapsed ? "collapse" : ""
-                      } navbar-collapse`}
+                    className={`${
+                      isNavCollapsed ? "collapse" : ""
+                    } navbar-collapse`}
                     id="navbarNav"
                   >
                     <ul className="navbar-nav ms-md-auto gap-2 d-flex align-items-start align-items-lg-center">
@@ -91,7 +92,7 @@ export default function Layout() {
                         <Link
                           className="text-white rounded px-0 mx-lg-3 cta-btn"
                           target="_blank"
-                          to="https://drive.google.com/file/d/1R1BgK_ZCBbI_OnjzXckPFmTzPXADHNBf/view?usp=sharing"
+                          to="https://drive.google.com/file/d/1LTarndgtsYqAaQ4JaP0dzRpM3GUFwZL3/view?usp=sharing"
                         >
                           <p className="btn"> Download Resume</p>
                         </Link>

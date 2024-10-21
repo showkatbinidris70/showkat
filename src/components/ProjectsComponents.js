@@ -25,6 +25,14 @@ export default function ProjectsComponents() {
   // All projects json data
   const ProjectsData = [
     {
+      title: "Webflow Interior Design",
+      url: "/images/glasirior.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
+      previewLink: "https://glasirior.webflow.io/",
+      // githubLink: "https://shshetudev.webflow.io/hiring-hub/home",
+    },
+    {
       title: "Webflow Hiring Hub Template",
       url: "/images/hiring-hub.png",
       preViewBtn: "Live View",
