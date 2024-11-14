@@ -25,6 +25,14 @@ export default function ProjectsComponents() {
   // All projects json data
   const ProjectsData = [
     {
+      title: "Digency (TemplateMonster) ",
+      url: "/images/digency.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
+      previewLink: "https://demo.templatemonster.com/demo/465108.html?_gl=1*1cl7ccs*_gcl_aw*R0NMLjE3MzE2MDQ5OTMuQ2p3S0NBaUEzTmE1QmhBWkVpd0F6cmZhZ0ktUUVXNWRyMUptWWd5LVF1dUZQQTJtNXZkWEJCWGlVRGgtYTNHRHV0UERSVXJQYlNpNHR4b0NIT3dRQXZEX0J3RQ..*_gcl_au*MTc1ODMyNTY2Mi4xNzMxNjA0OTg4*_ga*MTkwNTc0MDkxNy4xNzMxNjA0OTg0*_ga_FTPYEGT5LY*MTczMTYwNDk4My4xLjEuMTczMTYwNTAwOS4zMy4wLjA.",
+      githubLink: "https://github.com/showkatbinidris70/digency",
+    },
+    {
       title: "Webflow Interior Design",
       url: "/images/glasirior.png",
       preViewBtn: "Live View",
