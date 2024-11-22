@@ -25,6 +25,14 @@ export default function ProjectsComponents() {
   // All projects json data
   const ProjectsData = [
     {
+      title: "Realvilla (Webflow)",
+      url: "/images/realvilla.png",
+      preViewBtn: "Live View",
+      gitHubBtn: "Github",
+      previewLink: "https://realvilla.webflow.io/",
+      githubLink: "https://realvilla.webflow.io/",
+    },
+    {
       title: "Digency (TemplateMonster) ",
       url: "/images/digency.png",
       preViewBtn: "Live View",
