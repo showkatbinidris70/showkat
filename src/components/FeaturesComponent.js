@@ -16,6 +16,33 @@ export default function FeaturesComponent() {
                 <div className="container">
                     <h2 className='pt-5'>What I do</h2>
                     <div className="row">
+                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
+                            <div
+                                className="common-card"
+                                data-aos="fade-left"
+                                data-aos-duration="2000"
+                            >
+                                <div className="card border-0 card-shadow p-1 p-md-2 p-lg-3">
+                                    <img src={WebflowLogo} style={{ width: "45px" }} className='m-3' />
+                                    <div className="card-body">
+                                        <h6 className="card-title">Webflow Development</h6>
+                                        <p className="card-text">
+                                            As a Webflow Developer, I create custom, responsive websites with advanced interactions, SEO optimization, and easy content management.
+                                        </p>
+                                        <div className="cta-btn">
+                                            <Link
+                                                to="/about"
+                                                className="btn py-3 mt-4"
+                                                data-aos="zoom-in"
+                                                data-aos-duration="2000"
+                                            >
+                                                Know More <FaArrowRight />
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
                             <div
                                 className="common-card"
@@ -53,33 +80,6 @@ export default function FeaturesComponent() {
                                         <p className="card-text">
                                             Desing a responsive websites to reflect your brand and engage
                                             your audience effectively.
-                                        </p>
-                                        <div className="cta-btn">
-                                            <Link
-                                                to="/about"
-                                                className="btn py-3 mt-4"
-                                                data-aos="zoom-in"
-                                                data-aos-duration="2000"
-                                            >
-                                                Know More <FaArrowRight />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
-                            <div
-                                className="common-card"
-                                data-aos="fade-left"
-                                data-aos-duration="2000"
-                            >
-                                <div className="card border-0 card-shadow p-1 p-md-2 p-lg-3">
-                                    <img src={WebflowLogo} style={{ width: "45px" }} className='m-3' />
-                                    <div className="card-body">
-                                        <h6 className="card-title">Webflow Development</h6>
-                                        <p className="card-text">
-                                            As a Webflow Developer, I create custom, responsive websites with advanced interactions, SEO optimization, and easy content management.
                                         </p>
                                         <div className="cta-btn">
                                             <Link

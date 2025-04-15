@@ -25,6 +25,32 @@ export default function ProjectsComponents() {
   // All projects json data
   const ProjectsData = [
     {
+      title: "Ecom Architect (Webflow)",
+      url: "/images/ecom.png",
+      preViewBtn: "Live View",
+      //gitHubBtn: "Github",
+      previewLink: "https://ecom-architect.webflow.io/",
+      //githubLink: "https://realvilla.webflow.io/",
+    },
+    {
+      title: "iTk9 (Webflow)",
+      url: "/images/itrain.png",
+      preViewBtn: "Live View",
+      previewLink: "https://itraink9.webflow.io/",
+    },
+    {
+      title: "Revflow (Webflow)",
+      url: "/images/revflow.png",
+      preViewBtn: "Live View",
+      previewLink: "https://www.revflowai.com/",
+    },
+    {
+      title: "Team Doctor (Webflow)",
+      url: "/images/teamdoctorpedia.png",
+      preViewBtn: "Live View",
+      previewLink: "https://doctorpedia-164741-1dcf3dea42a5ad332fe7.webflow.io/",
+    },
+    {
       title: "Realvilla (Webflow)",
       url: "/images/realvilla.png",
       preViewBtn: "Live View",
