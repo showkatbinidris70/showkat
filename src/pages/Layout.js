@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, Link } from "react-router-dom";
-import Logo from "../assets/images/logo.png";
 
 export default function Layout() {
   const [affix, setAffix] = useState(false);

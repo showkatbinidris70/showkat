@@ -78,7 +78,7 @@ export default function Footer() {
           <div className="container">
             <div className="row py-3">
               <div className="col-12 col-sm-6">
-                <p className="copyright text-uppercase">Copyright © 2024</p>
+                <p className="copyright text-uppercase">Copyright © 2025</p>
               </div>
               <div className="col-12 col-sm-6 d-flex justify-content-md-end justify-content-start">
                 <ul>
