@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaGithub, FaInstagram  } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -20,21 +20,20 @@ export default function Footer() {
                 <ul className="address1">
                   <li className="d-flex align-items-center">
                     <i className="fa fa-envelope pe-2 text-secondary" />
-                    <p className="text-dark">showkatbinidris70@gmail.com</p>
+                    <p className="text-dark">showkatwebdev@gmail.com</p>
                   </li>
                   <li className="d-flex align-items-center">
                     <i
                       className="fa fa-mobile pe-2 text-secondary"
                       aria-hidden="true"
                     />
-                    <p className="text-dark">+8801921839596</p>
                   </li>
                   <li className="d-flex align-items-center">
                     <i
                       className="fa fa-mobile pe-2 text-secondary"
                       aria-hidden="true"
                     />
-                    <p className="text-dark">+8801572133260 (What's App)</p>
+                    <p className="text-dark">+8801572133260 (What's App & Telegram)</p>
                   </li>
                 </ul>
               </div>
@@ -67,6 +66,15 @@ export default function Footer() {
                     data-aos-duration="2000"
                   >
                     <FaGithub />
+                  </Link>
+                    <Link
+                    to="https://www.instagram.com/showkatbinidris70/"
+                    target="_blank"
+                    className="social-icons d-flex justify-content-center align-items-center"
+                    data-aos="zoom-in"
+                    data-aos-duration="2000"
+                  >
+                    <FaInstagram  />
                   </Link>
                 </div>
               </div>

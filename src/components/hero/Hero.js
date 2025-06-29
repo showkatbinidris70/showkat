@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import hero_image from "../../assets/images/developer-image.png";
+/*import hero_image from "../../assets/images/developer-image.png";*/
+import hero_image from "../../assets/images/developer-image.webp";
 import { FaArrowRight } from "react-icons/fa6";
-import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaGithub, FaInstagram  } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
@@ -95,6 +96,15 @@ export default function Hero() {
                       data-aos-duration="2000"
                     >
                       <FaGithub />
+                    </Link>
+                      <Link
+                      to="https://www.instagram.com/showkatbinidris70/"
+                      target="_blank"
+                      className="social-icons d-flex justify-content-center align-items-center"
+                      data-aos="zoom-in"
+                      data-aos-duration="2000"
+                    >
+                      <FaInstagram  />
                     </Link>
                   </div>
                 </div>

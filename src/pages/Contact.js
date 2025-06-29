@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { FaWhatsapp, FaSkype } from "react-icons/fa";
+import { FaWhatsapp, FaSkype, FaInstagram, FaTelegramPlane   } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -71,7 +71,7 @@ export default function Contact() {
                           </Link>
                           <div>
                             <p>Chat to project</p>
-                            <p>showkatbinidris70@gmail.com</p>
+                            <p>showkatwebdev@gmail.com</p>
                           </div>
                         </div>
                         <div className="d-flex gap-3 align-items-center my-4">
@@ -96,6 +96,18 @@ export default function Contact() {
                           <div>
                             <p>Skype</p>
                             <p>live:.cid.6ecfd213bf45a363</p>
+                          </div>
+                        </div>
+                         <div className="d-flex gap-3 align-items-center my-4">
+                          <Link
+                            to="/contact"
+                            className="social-icons d-flex justify-content-center align-items-center"
+                          >
+                            <FaTelegramPlane className="fs-1" />
+                          </Link>
+                          <div>
+                            <p>Telegram</p>
+                            <p>01572133260</p>
                           </div>
                         </div>
                       </div>
