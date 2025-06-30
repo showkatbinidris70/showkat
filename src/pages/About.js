@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import developer_image from "../assets/images/developer-image.png";
+import developer_image from "../assets/images/developer-image.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import CommonCardComponent from "../components/CommonCardComponent";
@@ -91,6 +91,20 @@ export default function About() {
                 </tr>
                 <tr>
                   <td>
+                    Softvence Agency <br />
+                    <ul>
+                      <li><a href="https://ecom-architect.webflow.io/" target="_blank">Ecom Architect</a></li>
+                      <li><a href="https://doctorpedia-164741-1dcf3dea42a5ad332fe7.webflow.io/" target="_blank">Doctorpedia</a></li>
+                      <li><a href="https://careerhive-co.webflow.io/" target="_blank">Career Hive </a></li>
+                    </ul>
+                  </td>
+                  <td className="year">
+                    1st Dec 2024 <br />
+                    till present
+                  </td>
+                </tr>
+                <tr>
+                  <td>
                     Nano Information Technology (Nanosoft) <br />
                     <ul>
                       <li>Ecommerce Side (Ekshop)</li>
@@ -100,7 +114,7 @@ export default function About() {
                   </td>
                   <td className="year">
                     2 May 2023 <br />
-                    till present
+                    30 Nov 2024
                   </td>
                 </tr>
                 <tr>
