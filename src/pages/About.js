@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import developer_image from "../assets/images/developer-image.webp";
+import about_img from "../assets/images/about-img.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import CommonCardComponent from "../components/CommonCardComponent";
@@ -20,7 +21,7 @@ export default function About() {
       {/* about section */}
       <div className="row about-developer d-none">
         <div className="d-none">
-          <div className="mx-auto developer-image py-3">
+          <div className="mx- developer-image py-3">
             <img
               src={developer_image}
               class="img-fluid w-100 h-100 rounded-circle"
@@ -54,7 +55,7 @@ export default function About() {
       <section className="about-developer">
         <div className="mx-auto developer-image py-3 text-center">
           <img
-            src={developer_image}
+            src={about_img}
             class="img-fluid w-100 h-100 rounded-circle"
             alt="Developer's image"
           />
@@ -166,7 +167,7 @@ export default function About() {
               </h5>
               <p className="contact">
                 Dhaka, Bangladesh <br />
-                E-mail: showkatbinidris70@gmail.com
+                E-mail: showkatwebdev@gmail.com
                 <br />
                 Birth Place: Bangladesh
               </p>
@@ -246,6 +247,12 @@ export default function About() {
               <div className="row">
                 <div className="" id="development">
                   <div className="d-flex align-content-start flex-wrap">
+                     <div className="cta-btn m-2">
+                      <div className="btn py-2 px-3 text-nowrap">Webflow</div>
+                    </div>
+                     <div className="cta-btn m-2">
+                      <div className="btn py-2 px-3 text-nowrap">Wordpress</div>
+                    </div>
                     <div className="cta-btn m-2">
                       <div className="btn py-2 px-3 text-nowrap">HTML</div>
                     </div>
@@ -272,13 +279,7 @@ export default function About() {
                       <div className="btn py-2 px-3 text-nowrap">React JS</div>
                     </div>
                     <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">Webflow</div>
-                    </div>
-                    <div className="cta-btn m-2">
                       <div className="btn py-2 px-3 text-nowrap">SASS</div>
-                    </div>
-                    <div className="cta-btn m-2">
-                      <div className="btn py-2 px-3 text-nowrap">Wordpress</div>
                     </div>
                   </div>
                 </div>
