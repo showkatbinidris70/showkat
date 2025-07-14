@@ -80,7 +80,7 @@ export default function Hero() {
                       <FaFacebookF />
                     </Link>
                     <Link
-                      to="https://www.linkedin.com/in/showkatbinidris/"
+                      to="https://www.linkedin.com/in/showkatwebdev"
                       target="_blank"
                       className="social-icons d-flex justify-content-center align-items-center"
                       data-aos="zoom-in"
@@ -98,7 +98,7 @@ export default function Hero() {
                       <FaGithub />
                     </Link>
                       <Link
-                      to="https://www.instagram.com/showkatbinidris70/"
+                      to="https://www.instagram.com/showkatwebdev"
                       target="_blank"
                       className="social-icons d-flex justify-content-center align-items-center"
                       data-aos="zoom-in"
