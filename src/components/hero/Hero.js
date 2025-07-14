@@ -3,7 +3,12 @@ import { Link } from "react-router-dom";
 /*import hero_image from "../../assets/images/developer-image.png";*/
 import hero_image from "../../assets/images/developer-image.webp";
 import { FaArrowRight } from "react-icons/fa6";
-import { FaFacebookF, FaLinkedinIn, FaGithub, FaInstagram  } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaGithub,
+  FaInstagram,
+} from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Typewriter from "typewriter-effect";
@@ -32,17 +37,23 @@ export default function Hero() {
                   I am a <br />
                   <Typewriter
                     options={{
-                      strings: ["Frontend Developer", "Webflow Developer"],
+                      strings: ["Frontend Developer", "Webflow Expert"],
                       autoStart: true,
                       loop: true,
                     }}
                   />
                 </h1>
-                <p className="desc">
-                  Transforming concepts into tangible digital solutions,{" "}
-                  <span className="fw-bold fs-6 pe-1">Showkat Ali</span>
-                  excels in crafting innovative web solutions that bring ideas
-                  to life effectively and efficiently.
+                <p
+                  className="desc"
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                >
+                  I'm a Frontend Developer and Webflow expert with 4+ years of
+                  experience in designing and developing professional,
+                  SEO-optimized, and fully responsive Webflow websites. I
+                  specialize in converting Figma, XD, or Photoshop designs into
+                  stunning Webflow websites that are fast, modern, and tailored
+                  to your business needs.
                 </p>
                 <div
                   className="d-flex gap-3 my-4"
@@ -67,7 +78,11 @@ export default function Hero() {
                     </Link>
                   </div>
                 </div>
-                <div className="py-3">
+                <div
+                  className="py-3"
+                  data-aos="fade-right"
+                  data-aos-duration="2000"
+                >
                   <p>Used by top-tech companies</p>
                   <div className="d-flex gap-3 py-3">
                     <Link
@@ -97,14 +112,14 @@ export default function Hero() {
                     >
                       <FaGithub />
                     </Link>
-                      <Link
+                    <Link
                       to="https://www.instagram.com/showkatwebdev"
                       target="_blank"
                       className="social-icons d-flex justify-content-center align-items-center"
                       data-aos="zoom-in"
                       data-aos-duration="2000"
                     >
-                      <FaInstagram  />
+                      <FaInstagram />
                     </Link>
                   </div>
                 </div>
@@ -112,11 +127,7 @@ export default function Hero() {
             </div>
 
             <div className="col-sm-12 col-md-12 col-lg-6 col-xl-5 order-lg-1 d-flex align-items-center align-items-xl-end hero-100vh">
-              <div
-                className="d-flex align-items-end w-100 justify-content-center"
-                data-aos="fade-left"
-                data-aos-duration="1000"
-              >
+              <div className="d-flex align-items-end w-100 justify-content-center">
                 <img
                   src={hero_image}
                   className="img-fluid text-center"

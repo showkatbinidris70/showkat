@@ -29,7 +29,7 @@ export default function CommonCardComponent() {
                   rel="noopener noreferrer"
                   onClick={handleButtonClick}
                 >
-                  showkatbinidris70@gmail.com <FaArrowRight />
+                  showkatwebdev@gmail.com <FaArrowRight />
                 </a>
               </div>
             </div>
