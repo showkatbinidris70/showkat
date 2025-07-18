@@ -73,10 +73,15 @@ body {
 }
 
 .navbar-toggler {
-  background-color: #fff;
   z-index: 9999;
+  padding: 0.25rem 0.25rem;
+ border: 1px solid #7c75f4;
 }
-
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none
+}
 .affix .navbar-light .navbar-nav .nav-link {
   color: #000;
 }
@@ -658,6 +663,20 @@ h6 {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
+.main-logo {
+  background-image: linear-gradient(45deg, #7c75f4, #76a9f8);
+  font-family: "Bricolage Grotesque, sans-serif";
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  line-height: 1.1;
+  font-weight: 600;
+  font-size: 3rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 
 .cta-btn {
   display: inline-block;
@@ -755,11 +774,14 @@ footer .copyright {
   h3 {
     font-size: 1.5rem;
   }
+  .main-logo {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .main-logo {
-    width: 170px;
+    font-size: 2rem;
   }
   /* news letter start */
   .news-letter-section {
@@ -804,7 +826,7 @@ footer .copyright {
 
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   .main-logo {
-    width: 150px;
+    font-size: 2rem;
   }
 
   h1 {
@@ -864,7 +886,7 @@ footer .copyright {
 
 @media screen and (min-width: 376px) and (max-width: 575.98px) {
   .main-logo {
-    width: 130px;
+    font-size: 2rem;
   }
   .home-hero .hero-100vh {
     height: auto;
@@ -940,7 +962,7 @@ footer .copyright {
 
 @media screen and (min-width: 100px) and (max-width: 375.98px) {
   .main-logo {
-    width: 120px;
+    font-size: 2rem;
   }
   .home-hero .hero-100vh {
     height: auto;

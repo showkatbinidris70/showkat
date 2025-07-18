@@ -54,13 +54,13 @@ export default function Home() {
       <div className="">
         <Projects />
       </div>
-      <div className="client-logos">
+      <div className="client-logos overflow-hidden">
         <LogosSliders />
       </div>
       <section
         data-aos="fade-up"
         data-aos-duration="2000"
-        className="testimonial-section"
+        className="testimonial-section overflow-hidden"
       >
         <div className="large-container">
           <div className="container">
@@ -211,7 +211,7 @@ export default function Home() {
       <section
         data-aos="fade-up"
         data-aos-duration="2000"
-        className="news-letter-section"
+        className="news-letter-section overflow-hidden"
       >
         <div className="container">
           <div className="common-card">

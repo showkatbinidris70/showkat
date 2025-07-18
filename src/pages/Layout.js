@@ -36,7 +36,7 @@ export default function Layout() {
                 <div className="container-fluid px-0">
                   <a className="navbar-brand" href="/">
                     {/* <img src={Logo} className="img-fluid main-logo" alt="main logo" /> */}
-                    <h4 className="img-fluid main-logo">showkat.me</h4>
+                    <p className="img-fluid main-logo">showkat.me</p>
                   </a>
                   <button
                     className="navbar-toggler"
@@ -56,10 +56,10 @@ export default function Layout() {
                     } navbar-collapse`}
                     id="navbarNav"
                   >
-                    <ul className="navbar-nav ms-md-auto gap-2 d-flex align-items-start align-items-lg-center">
+                    <ul className="navbar-nav ms-md-auto gap-1 d-flex align-items-start align-items-lg-center">
                       <li className="nav-item rounded">
                         <Link
-                          className="nav-link"
+                          className="nav-link px-2"
                           aria-current="page"
                           to="/about"
                           onClick={closeNav}
@@ -69,7 +69,7 @@ export default function Layout() {
                       </li>
                       <li className="nav-item rounded">
                         <Link
-                          className="nav-link"
+                          className="nav-link px-2"
                           aria-current="page"
                           to="/projects"
                           onClick={closeNav}
@@ -79,7 +79,7 @@ export default function Layout() {
                       </li>
                       <li className="nav-item rounded">
                         <Link
-                          className="nav-link"
+                          className="nav-link px-2"
                           aria-current="page"
                           to="/contact"
                           onClick={closeNav}
