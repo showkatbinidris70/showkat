@@ -36,7 +36,7 @@ export default function Layout() {
                 <div className="container-fluid px-0">
                   <a className="navbar-brand" href="/">
                     {/* <img src={Logo} className="img-fluid main-logo" alt="main logo" /> */}
-                    <h4 className="img-fluid main-logo">Showkat</h4>
+                    <h4 className="img-fluid main-logo">showkat.me</h4>
                   </a>
                   <button
                     className="navbar-toggler"
