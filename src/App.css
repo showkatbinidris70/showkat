@@ -191,6 +191,9 @@ body {
 
 /* hero section end */
 /* features start */
+.features {
+  padding: 120px 0px;
+}
 .features .card-text {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -241,8 +244,8 @@ body {
 /* projects end */
 
 /* contact us start */
-.map_sec .map_sec {
-  padding: 50px 0;
+.map_sec {
+  padding: 40px 0 120px 0;
 }
 
 .map_sec .map_inner h4,
@@ -296,6 +299,9 @@ body {
 
 /* about-section end */
 /* logos slider start */
+.client-logos {
+  padding: 120px 0px;
+}
 .logos-slider {
   display: flex;
   flex-wrap: nowrap;
@@ -476,6 +482,9 @@ body {
 /* testimonial end */
 
 /* news letter start */
+.news-letter-section {
+  padding-bottom: 100px;
+}
 .news-letter-section .sun-light-sticker {
   width: 80px;
   height: 80px;
@@ -539,6 +548,9 @@ body {
 /* call-to-action-card start */
 .common-card {
   padding: 1rem 0rem;
+}
+.common-card-comp {
+  padding: 120px 0;
 }
 
 .common-card .card-shadow {
@@ -685,7 +697,7 @@ h6 {
 /* footer start */
 footer .footer-top {
   background: var(--bg_fifth);
-  padding: 50px 0 50px;
+  padding: 120px 0 50px;
 }
 
 footer .footer-top h4 {
@@ -749,14 +761,17 @@ footer .copyright {
   .main-logo {
     width: 170px;
   }
-
+  /* news letter start */
+  .news-letter-section {
+    padding-bottom: 60px;
+  }
   .news-letter-section .h-search-form input {
     padding-left: 0px;
     width: calc(100% - 10px);
   }
 
   .home-hero .hero-100vh {
-    height: 60vh;
+    height: auto;
   }
 
   h1 {
@@ -765,6 +780,25 @@ footer .copyright {
 
   h2 {
     font-size: 2.5rem;
+  }
+  .common-card-comp {
+    padding: 80px 0;
+  }
+  /* features start */
+  .features {
+    padding: 80px 0px;
+  }
+  /* logos slider start */
+  .client-logos {
+    padding: 80px 0px;
+  }
+  .map_sec {
+    padding: 40px 0 80px 0;
+  }
+
+  /* footer start */
+  footer .footer-top {
+    padding: 80px 0 20px;
   }
 }
 
@@ -792,14 +826,39 @@ footer .copyright {
   h5 {
     font-size: 1.3rem;
   }
+  .home-hero .hero-100vh {
+    height: auto;
+  }
+  /* features start */
+  .features {
+    padding: 60px 0px;
+  }
 
+  /* logos slider start */
+  .client-logos {
+    padding: 60px 0px;
+  }
   .common-card .asterisk-icon {
     font-size: 3rem;
   }
-
+  .common-card-comp {
+    padding: 60px 0;
+  }
+  /* news letter start */
+  .news-letter-section {
+    padding-bottom: 40px;
+  }
   .news-letter-section .h-search-form input {
     padding-left: 0px;
     width: calc(100% - 10px);
+  }
+  .map_sec {
+    padding: 40px 0 60px 0;
+  }
+
+  /* footer start */
+  footer .footer-top {
+    padding: 60px 0 0px;
   }
 }
 
@@ -807,7 +866,9 @@ footer .copyright {
   .main-logo {
     width: 130px;
   }
-
+  .home-hero .hero-100vh {
+    height: auto;
+  }
   h1 {
     font-size: 2.2rem;
   }
@@ -830,7 +891,21 @@ footer .copyright {
   h6 {
     font-size: 1rem;
   }
+  .home-hero .hero-100vh {
+    height: auto;
+  }
+  .common-card-comp {
+    padding: 60px 0;
+  }
+  /* features start */
+  .features {
+    padding: 60px 0px;
+  }
 
+  /* logos slider start */
+  .client-logos {
+    padding: 60px 0px;
+  }
   .developer-image img {
     max-height: 450px !important;
     max-width: 450px !important;
@@ -849,13 +924,30 @@ footer .copyright {
     padding-left: 0px;
     width: calc(100% - 10px);
   }
+  /* news letter start */
+  .news-letter-section {
+    padding-bottom: 40px;
+  }
+  .map_sec {
+    padding: 40px 0 60px 0;
+  }
+
+  /* footer start */
+  footer .footer-top {
+    padding: 60px 0 0px;
+  }
 }
 
 @media screen and (min-width: 100px) and (max-width: 375.98px) {
   .main-logo {
     width: 120px;
   }
-
+  .home-hero .hero-100vh {
+    height: auto;
+  }
+  .common-card-comp {
+    padding: 60px 0;
+  }
   h1 {
     font-size: 1.9rem;
   }
@@ -878,6 +970,18 @@ footer .copyright {
   h6 {
     font-size: 1rem;
   }
+  .common-card-comp {
+    padding: 60px 0;
+  }
+  /* features start */
+  .features {
+    padding: 60px 0px;
+  }
+  /* logos slider start */
+  .client-logos {
+    padding: 60px 0px;
+  }
+
   .developer-image img {
     max-height: 320px !important;
     max-width: 320px !important;
@@ -908,6 +1012,18 @@ footer .copyright {
     border: none;
     position: absolute;
     right: 0;
+  }
+  /* news letter start */
+  .news-letter-section {
+    padding-bottom: 40px;
+  }
+  .map_sec {
+    padding: 40px 0 60px 0;
+  }
+
+  /* footer start */
+  footer .footer-top {
+    padding: 40px 0px;
   }
 }
 

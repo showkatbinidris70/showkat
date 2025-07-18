@@ -51,22 +51,22 @@ export default function Home() {
       <Hero />
 
       <FeaturesComponent />
-      <div className="my-5">
+      <div className="">
         <Projects />
       </div>
-      <div className="py-5">
+      <div className="client-logos">
         <LogosSliders />
       </div>
       <section
         data-aos="fade-up"
         data-aos-duration="2000"
-        className="testimonial-section pt-5"
+        className="testimonial-section"
       >
         <div className="large-container">
           <div className="container">
             <div className="sec-title">
               <span className="title">Testimonial</span>
-              <h3>What Our core client say ?</h3>
+              <h2>What do my core client say ?</h2>
             </div>
             <div className="row">
               <div className="col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xxl-9">
@@ -214,7 +214,7 @@ export default function Home() {
         className="news-letter-section"
       >
         <div className="container">
-          <div className="common-card py-5">
+          <div className="common-card">
             <div className="container">
               <div className="row">
                 <div className="card border-0 card-shadow py-5 px-2 px-lg-5 text-center position-relative">

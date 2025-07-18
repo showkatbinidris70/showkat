@@ -14,7 +14,7 @@ export default function FeaturesComponent() {
                 className="features"
             >
                 <div className="container">
-                    <h2 className='pt-5'>What I do</h2>
+                    <h2 className=''>What I do</h2>
                     <div className="row">
                     <div className="col-sm-6 col-md-6 col-lg-6 col-xl-4">
                             <div

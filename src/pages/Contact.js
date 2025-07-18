@@ -188,7 +188,7 @@ export default function Contact() {
 
         {/* google map  */}
         <section
-          className="map_sec py-5"
+          className="map_sec"
           data-aos="fade-up"
           data-aos-duration="2000"
         >

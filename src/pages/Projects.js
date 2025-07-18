@@ -19,7 +19,7 @@ export default function Projects() {
       </section>
 
       {/* Commoncard Design here */}
-      <section data-aos="fade-up" data-aos-duration="2000" className="py-5">
+      <section data-aos="fade-up" data-aos-duration="2000" className="common-card-comp">
         <CommonCardComponent />
       </section>
     </div>

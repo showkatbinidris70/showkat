@@ -304,7 +304,7 @@ export default function About() {
         </div>
       </section>
 
-      <div className="mt-5 py-5" data-aos="fade-up" data-aos-duration="2000">
+      <div className="common-card-comp" data-aos="fade-up" data-aos-duration="2000">
         <CommonCardComponent />
       </div>
     </div>

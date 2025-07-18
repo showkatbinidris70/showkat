@@ -9,7 +9,7 @@ export default function CommonCardComponent() {
   };
   return (
     <div>
-      <section className="common-card">
+      <section className="">
         <div className="container">
           <div className="row px-1">
             <div className="card border-0 card-shadow py-5 px-0 px-md-3 px-lg-5 text-center">

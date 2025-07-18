@@ -48,18 +48,20 @@ export default function ProjectsComponents() {
       title: "Team Doctor (Webflow)",
       url: "/images/teamdoctorpedia.png",
       preViewBtn: "Live View",
-      previewLink: "https://doctorpedia-164741-1dcf3dea42a5ad332fe7.webflow.io/",
+      previewLink:
+        "https://doctorpedia-164741-1dcf3dea42a5ad332fe7.webflow.io/",
     },
-  
+
     {
       title: "Digency (TemplateMonster) ",
       url: "/images/digency.png",
       preViewBtn: "Live View",
       gitHubBtn: "Github",
-      previewLink: "https://demo.templatemonster.com/demo/465108.html?_gl=1*1cl7ccs*_gcl_aw*R0NMLjE3MzE2MDQ5OTMuQ2p3S0NBaUEzTmE1QmhBWkVpd0F6cmZhZ0ktUUVXNWRyMUptWWd5LVF1dUZQQTJtNXZkWEJCWGlVRGgtYTNHRHV0UERSVXJQYlNpNHR4b0NIT3dRQXZEX0J3RQ..*_gcl_au*MTc1ODMyNTY2Mi4xNzMxNjA0OTg4*_ga*MTkwNTc0MDkxNy4xNzMxNjA0OTg0*_ga_FTPYEGT5LY*MTczMTYwNDk4My4xLjEuMTczMTYwNTAwOS4zMy4wLjA.",
+      previewLink:
+        "https://demo.templatemonster.com/demo/465108.html?_gl=1*1cl7ccs*_gcl_aw*R0NMLjE3MzE2MDQ5OTMuQ2p3S0NBaUEzTmE1QmhBWkVpd0F6cmZhZ0ktUUVXNWRyMUptWWd5LVF1dUZQQTJtNXZkWEJCWGlVRGgtYTNHRHV0UERSVXJQYlNpNHR4b0NIT3dRQXZEX0J3RQ..*_gcl_au*MTc1ODMyNTY2Mi4xNzMxNjA0OTg4*_ga*MTkwNTc0MDkxNy4xNzMxNjA0OTg0*_ga_FTPYEGT5LY*MTczMTYwNDk4My4xLjEuMTczMTYwNTAwOS4zMy4wLjA.",
       githubLink: "https://github.com/showkatbinidris70/digency",
     },
-      {
+    {
       title: "Velara Prive Travel Agency)",
       url: "/images/velara-prive.webp",
       preViewBtn: "Live View",
@@ -67,7 +69,7 @@ export default function ProjectsComponents() {
       previewLink: "https://velara-prive-website.webflow.io/",
       /*githubLink: "https://realvilla.webflow.io/",*/
     },
-      {
+    {
       title: "Realvilla (Webflow)",
       url: "/images/realvilla.png",
       preViewBtn: "Live View",
@@ -83,14 +85,7 @@ export default function ProjectsComponents() {
       previewLink: "https://glasirior.webflow.io/",
       // githubLink: "https://shshetudev.webflow.io/hiring-hub/home",
     },
-    {
-      title: "Webflow Hiring Hub Template",
-      url: "/images/hiring-hub.png",
-      preViewBtn: "Live View",
-      gitHubBtn: "Github",
-      previewLink: "https://shshetudev.webflow.io/hiring-hub/home",
-      // githubLink: "https://shshetudev.webflow.io/hiring-hub/home",
-    },
+
     {
       title: "Webflow Restaurant Template",
       url: "/images/project-image.png",
@@ -115,14 +110,7 @@ export default function ProjectsComponents() {
       previewLink: "https://showkats-design.webflow.io/webflow-tutorial-101",
       // githubLink: "https://showkats-design.webflow.io/webflow-tutorial-101",
     },
-    {
-      title: "Webflow Template",
-      url: "/images/webflow-2.png",
-      preViewBtn: "Live View",
-      gitHubBtn: "Github",
-      previewLink: "https://my-five-star-site-7568bb.webflow.io/",
-      // githubLink: "https://my-five-star-site-7568bb.webflow.io/",
-    },
+   
     {
       title: "Ek-shop Landing Page",
       url: "/images/landing-page-01.png",
@@ -166,8 +154,8 @@ export default function ProjectsComponents() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-6 col-lg-4">
-              <div className="sticky-top pt-5">
-                <h2 className="pt-5">
+              <div className="sticky-top pt-lg-5 pt-md-0">
+                <h2 className="pt-lg-5 pt-md-3">
                   My <br />
                   <Typewriter
                     options={{
@@ -229,14 +217,16 @@ export default function ProjectsComponents() {
                                   </Link>
                                 </div>
                                 <div className="cta-btn">
-                                  <Link
-                                    to={githubLink}
-                                    target="_blank"
-                                    className="btn px-3"
-                                  >
-                                    {gitHubBtn}{" "}
-                                    <FaArrowRight className="d-none col-sm-block" />
-                                  </Link>
+                                  {githubLink && (
+                                    <Link
+                                      to={githubLink}
+                                      target="_blank"
+                                      className="btn px-3"
+                                    >
+                                      {gitHubBtn}{" "}
+                                      <FaArrowRight className="d-none col-sm-block" />
+                                    </Link>
+                                  )}
                                 </div>
                               </div>
                             </div>
@@ -245,7 +235,7 @@ export default function ProjectsComponents() {
                       </div>
                     );
                   })}
-                <div className="cta-btn">
+                <div className="cta-btn pt-1">
                   <button onClick={ShowMoreItems} className="btn px-3">
                     Show More
                   </button>

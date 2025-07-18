@@ -79,12 +79,11 @@ export default function Hero() {
                   </div>
                 </div>
                 <div
-                  className="py-3"
                   data-aos="fade-right"
                   data-aos-duration="2000"
                 >
                   <p>Used by top-tech companies</p>
-                  <div className="d-flex gap-3 py-3">
+                  <div className="d-flex gap-3 pt-3">
                     <Link
                       to="https://www.facebook.com/salibinidris/"
                       target="_blank"

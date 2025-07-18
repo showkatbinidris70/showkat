@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="footer-top">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-sm-6 col-md-6 col-lg-5 py-3 py-lg-0">
+              <div className="col-12 col-sm-6 col-md-6 col-lg-5">
                 <h4>About Me</h4>
                 <p>
                   I enjoy learning new skills and working with diverse cultures. Energetic and adaptable, I thrive in fast-paced environments. As a self-taught developer, I'm committed to personal growth and career change.
