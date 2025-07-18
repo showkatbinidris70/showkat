@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 /*import hero_image from "../../assets/images/developer-image.png";*/
 import hero_image from "../../assets/images/developer-image.webp";
-import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowRight, FaXTwitter } from "react-icons/fa6";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -83,7 +83,7 @@ export default function Hero() {
                   data-aos-duration="2000"
                 >
                   <p>Used by top-tech companies</p>
-                  <div className="d-flex gap-3 pt-3">
+                  <div className="d-flex gap-2 pt-3">
                     <Link
                       to="https://www.facebook.com/salibinidris/"
                       target="_blank"
@@ -119,6 +119,15 @@ export default function Hero() {
                       data-aos-duration="2000"
                     >
                       <FaInstagram />
+                    </Link>
+                      <Link
+                      to="https://x.com/Showkatwebdev"
+                      target="_blank"
+                      className="social-icons d-flex justify-content-center align-items-center"
+                      data-aos="zoom-in"
+                      data-aos-duration="2000"
+                    >
+                      <FaXTwitter />
                     </Link>
                   </div>
                 </div>
