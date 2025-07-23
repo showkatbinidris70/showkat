@@ -1,8 +1,7 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import { FaWhatsapp, FaSkype, FaInstagram, FaTelegramPlane   } from "react-icons/fa";
+import { FaWhatsapp, FaSkype, FaTelegramPlane   } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,7 +19,7 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs
-      .sendForm("portfolio-template", "template_0jpta2h", form.current, {
+      .sendForm("service_weej6ek", "template_0jpta2h", form.current, {
         publicKey: "vbub8giJo34N4q1wv",
       })
       .then(
@@ -173,9 +172,7 @@ export default function Contact() {
                           </div>
                         </div>
                         <div className="cta-btn">
-                          <button type="submit" class="btn px-3">
-                            Send Message <FaArrowRight />
-                          </button>
+                          <input type="submit" value="Send Message" className="btn px-3"/>
                         </div>
                       </form>
                     </div>
