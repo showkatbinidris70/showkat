@@ -515,7 +515,7 @@ body {
   padding-left: 20px;
 }
 
-.news-letter-section .h-search-form button {
+.news-letter-section .h-search-form .subscribe_btn {
   height: 55px;
   color: var(--text_white);
   padding: 0px 20px;
@@ -523,10 +523,11 @@ body {
   border-radius: 0px 50px 50px 0px;
   border: none;
   position: absolute;
+  width: 130px;
   right: 0;
 }
 
-.news-letter-section .h-search-form button:hover {
+.news-letter-section .h-search-form .subscribe_btn:hover {
   background: #8053f7;
   color: #fff;
 }
@@ -1027,7 +1028,7 @@ footer .copyright {
     width: calc(100% - 5px);
   }
 
-  .news-letter-section .h-search-form button {
+  .news-letter-section .h-search-form .subscribe_btn {
     height: 55px;
     padding: 0px 10px;
     border-radius: 0px 50px 50px 0px;

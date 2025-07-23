@@ -115,7 +115,7 @@ export default function Contact() {
                       <form ref={form} onSubmit={sendEmail}>
                         <div className="mb-3">
                           <label htmlFor="name" className="form-label">
-                            Name
+                            Name <span style={{color: 'red'}}>*</span>
                           </label>
                           <input
                             type="text"
@@ -123,6 +123,7 @@ export default function Contact() {
                             id="name"
                             placeholder="Enter your name"
                             aria-describedby="name"
+                            required
                             name="to_name"
                           />
                         </div>
@@ -131,7 +132,7 @@ export default function Contact() {
                             htmlFor="exampleInputEmail1"
                             className="form-label bg-transparent"
                           >
-                            Email address
+                            Email address <span style={{color: 'red'}}>*</span>
                           </label>
                           <input
                             type="email"
@@ -139,6 +140,7 @@ export default function Contact() {
                             id="exampleInputEmail1"
                             aria-describedby="emailHelp"
                             placeholder="Enter your email"
+                            required
                             name="email"
                           />
                         </div>

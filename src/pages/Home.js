@@ -32,7 +32,7 @@ export default function Home() {
     e.preventDefault();
 
     emailjs
-      .sendForm("portfolio-template", "template_0jpta2h", form.current, {
+      .sendForm("service_weej6ek", "template_0jpta2h", form.current, {
         publicKey: "vbub8giJo34N4q1wv",
       })
       .then(
@@ -294,8 +294,9 @@ export default function Home() {
                                   aria-describedby="emailHelp"
                                   placeholder="Enter your email"
                                   name="email"
+                                  required
                                 />
-                                <button type="submit">Subscribe</button>
+                                 <input type="submit" value="Subscribe" className="subscribe_btn"/>
                               </form>
                             </div>
                           </div>
