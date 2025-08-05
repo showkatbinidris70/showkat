@@ -37,7 +37,7 @@ export default function Hero() {
                   I am a <br />
                   <Typewriter
                     options={{
-                      strings: ["Frontend Developer", "Webflow Expert"],
+                      strings: ["Frontend Developer", "Webflow Developer"],
                       autoStart: true,
                       loop: true,
                     }}
@@ -48,7 +48,7 @@ export default function Hero() {
                   data-aos="fade-right"
                   data-aos-duration="2000"
                 >
-                  I'm a Frontend Developer and Webflow expert with 4+ years of
+                  I'm a Frontend Developer and Webflow Developer with 4+ years of
                   experience in designing and developing professional,
                   SEO-optimized, and fully responsive Webflow websites. I
                   specialize in converting Figma, XD, or Photoshop designs into
