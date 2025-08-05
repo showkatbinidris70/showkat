@@ -2,7 +2,7 @@
   "name": "digital-agency",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://showkat.me"
+  "homepage": "https://showkat.me",
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "@testing-library/jest-dom": "^5.17.0",
