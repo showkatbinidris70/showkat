@@ -70,7 +70,7 @@ export default function Contact() {
                           </Link>
                           <div>
                             <p>Chat to project</p>
-                            <p>showkatwebdev@gmail.com</p>
+                            <p>contact@showkat.me</p>
                           </div>
                         </div>
                         <div className="d-flex gap-3 align-items-center my-4">

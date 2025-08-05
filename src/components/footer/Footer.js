@@ -29,7 +29,7 @@ export default function Footer() {
                 <ul className="address1">
                   <li className="d-flex align-items-center">
                     <i className="fa fa-envelope pe-2 text-secondary" />
-                    <p className="text-dark">showkatwebdev@gmail.com</p>
+                    <p className="text-dark">contact@showkat.me</p>
                   </li>
                   <li className="d-flex align-items-center">
                     <i
